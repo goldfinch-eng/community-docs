@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Goldfinch Protocol](README.md)
+* [Goldfinch Documentation](README.md)
 * [Goldfinch Protocol Overview](goldfinch-protocol-overview/README.md)
   * [Introduction](goldfinch-protocol-overview/introduction.md)
   * [Goldfinch Overview](goldfinch-protocol-overview/overview.md)
@@ -14,4 +14,9 @@
   * [Unique Entity Check](advanced-topics/uniqueentitycheck.md)
   * [Governance](advanced-topics/governance.md)
   * [Discussion of Fraud Resistance](advanced-topics/discussionoffraudresistance.md)
+* [Discord](https://discord.gg/HVeaca3fN8)
+* [Github](https://github.com/goldfinch-eng)
+* [Medium](https://medium.com/goldfinch-fi)
+* [Twitter](https://twitter.com/goldfinch_fi)
+* [Telegram](https://t.me/goldfinch_finance)
 

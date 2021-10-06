@@ -1,8 +1,10 @@
 # Borrowers
 
+
 {% hint style="success" %}
 Borrowers are participants who seek financing from the protocol. They propose terms to Backers to supply capital to their Borrower Pools.
 {% endhint %}
+
 
 ## Borrower Pool Creation
 
@@ -24,11 +26,13 @@ In order to create a Borrower Pool, the Borrower must also stake an amount of GF
 
 Borrowers can borrow capital through the Borrower Pool at any time. The total amount they can borrow is the minimum of:
 
+
 A. The calculated limit based on the capital that Backers have supplied and the additional Senior Pool leverage amount.
 
 B. The combined total capital that Backers have supplied in that Borrower Pool plus the remaining capital in the Senior Pool.
 
 C. The Borrower Pool's limit.
+
 
 After borrowing, Borrowers make repayments to the Borrower Pool according to its interest rate and payment period. When they pay more than the interest owed, the remainder is applied to the principal balance.
 
@@ -46,9 +50,11 @@ There may be certain participants who work with Borrowers to establish terms and
 
 ## Summary of Borrower Incentives
 
+
 {% hint style="success" %}
 A key question is what incentives Borrowers have to pay back what they borrow
 {% endhint %}
+
 
 The first incentive is that Borrowers likely want to continue borrowing from Goldfinch. The moment they are late on a payment, Borrowers are unable to borrow further from any Borrower Pool. Also, Backers will likely stop supplying more capital if a Borrower is continually late on repayments. It is up to Backers to determine that Borrowers do in fact want to continue borrowing from the protocol in the future.
 
