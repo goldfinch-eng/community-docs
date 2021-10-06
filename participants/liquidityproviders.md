@@ -1,8 +1,6 @@
 # Liquidity Providers
 
-{% hint style="success" %}
-Liquidity Providers supply capital to the Senior Pool in order to earn passive yield. The Senior Pool automatically allocates their capital to the senior tranches of Borrower Pools.
-{% endhint %}
+?&gt; Liquidity Providers supply capital to the Senior Pool in order to earn passive yield. The Senior Pool automatically allocates their capital to the senior tranches of Borrower Pools.
 
 ## Supplying to the Senior Pool
 

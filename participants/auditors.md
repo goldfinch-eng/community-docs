@@ -1,8 +1,6 @@
 # Auditors
 
-{% hint style="success" %}
-Auditors perform human-level checks on Borrowers to confirm they are legitimate, helping to secure the protocol against fraud. Borrowers need the approval of Auditors to borrow from Borrower Pools.
-{% endhint %}
+!&gt; Auditors perform human-level checks on Borrowers to confirm they are legitimate, helping to secure the protocol against fraud. Borrowers need the approval of Auditors to borrow from Borrower Pools.
 
 ## Approval Votes
 

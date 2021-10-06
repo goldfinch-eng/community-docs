@@ -46,7 +46,9 @@ There may be certain participants who work with Borrowers to establish terms and
 
 ## Summary of Borrower Incentives
 
-?&gt; A key question is what incentives Borrowers have to pay back what they borrow.
+{% hint style="success" %}
+A key question is what incentives Borrowers have to pay back what they borrow
+{% endhint %}
 
 The first incentive is that Borrowers likely want to continue borrowing from Goldfinch. The moment they are late on a payment, Borrowers are unable to borrow further from any Borrower Pool. Also, Backers will likely stop supplying more capital if a Borrower is continually late on repayments. It is up to Backers to determine that Borrowers do in fact want to continue borrowing from the protocol in the future.
 

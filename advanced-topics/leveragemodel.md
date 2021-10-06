@@ -1,8 +1,6 @@
 # Leverage Model
 
-{% hint style="success" %}
-The Leverage Model determines how much capital the Senior Pool allocates toward each Borrower Pool, based on how much it `trusts` each Borrower Pool.
-{% endhint %}
+?&gt; The Leverage Model determines how much capital the Senior Pool allocates toward each Borrower Pool, based on how much it `trusts` each Borrower Pool.
 
 ## Trust Through Consensus
 
@@ -12,20 +10,20 @@ Because this approach relies on counting individual Backers, the protocol must e
 
 ## Leverage Model Formula
 
-The leverage amount, $$A$$, that the Senior Pool allocates is determined by the formula, $$A = S * D * L$$where:
+The leverage amount, A, that the Senior Pool allocates is determined by the formula, where:
 
-* $$S$$ is the total capital supplied by Backers.
-* $$D$$ is the distribution adjustment on a scale of $$0$$ to $$1$$, which accounts for how evenly distributed the Backers are. $$D$$ is closer to $$0$$ when the distribution is skewed and closer to $$1$$ when the Backers are more equally distributed. This ensures no single Backer has an outsized influence. The formula for $$D$$ uses the percent supplied by each Backer, $$s_{n}$$ , and is based on the Herfindahl-Hirschman Index:
+* S is the total capital supplied by Backers.
+* D is the distribution adjustment on a scale of 0 to 1, which accounts for how evenly distributed the Backers are. D is closer to 0 when the distribution is skewed and closer to 1 when the Backers are more equally distributed. This ensures no single Backer has an outsized influence. The formula for D uses the percent supplied by each Backer, sn , and is based on the Herfindahl-Hirschman Index:
 
-$$
-D = 1-\sum_{i=1}^n s_n^2
-$$
+  > ![sigma](https://latex.codecogs.com/svg.latex?D%20=%201-\sum_{i=1}^n%20s_n^2)
 
-* L is the leverage ratio on a scale of $$0$$ to the maximum potential leverage ratio. Based on the number of Backers, $$b$$, the leverage ratio increases linearly from  $$B_{min}$$ , the minimum number of Backers necessary for leverage, to $$B_{max}$$ , the maximum number of Backers necessary to achieve the maximum potential leverage, $$L_{max}$$:
+* L is the leverage ratio on a scale of 0 to the maximum potential leverage ratio. Based on the number of Backers, b, the leverage ratio increases linearly from Bmin , the minimum number of Backers necessary for leverage, to Bmax , the maximum number of Backers necessary to achieve the maximum potential leverage, Lmax:
 
 $$
 L=L_{max}*\frac{max(0, b-B_{min})}{B_{max}-B_{min}}
 $$
+
+> !\[sigma\]\([https://latex.codecogs.com/svg.latex?L=L\_{max}\*\frac{max\(0, b-B\_{min}\)}{B\_{max}-B\_{min}}](https://latex.codecogs.com/svg.latex?L=L_{max}*\frac{max%280,%20b-B_{min}%29}{B_{max}-B_{min}})\)
 
 
 
