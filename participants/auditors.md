@@ -1,6 +1,5 @@
 # Auditors
 
-
 {% hint style="success" %}
 Auditors perform human-level checks on Borrowers to confirm they are legitimate, helping to secure the protocol against fraud. Borrowers need the approval of Auditors to borrow from Borrower Pools.
 {% endhint %}
@@ -47,19 +46,15 @@ Once selected, auditors have 48 hours to provide a `Yes`, `Unsure`, or `No` vote
 * vote `Yes` when the majority vote `No`, or 
 * vote `No` when the majority vote `Yes`.
 
-
 {% hint style="danger" %}
 If they vote `Unsure`, there is no penalty but also no reward.
 {% endhint %}
 
-Based on the way Auditors vote, there are three potential outcomes: 
+Based on the way Auditors vote, there are three potential outcomes:
 
-1. **Full Approval:** This occurs when there are at least 6 `Yes` votes and no more than 1 `No` vote. The Borrower is approved to access capital, and the Senior Pool allocates capital to their Borrower Pools. 
-
-2. **Backer-Only Approval:** This occurs when there are at least 6 `Yes` or `Unsure` votes, and no more than 1 `No` vote. The Borrower is approved to access capital, but the Senior Pool does not allocate capital to their Borrower Pools. 
-
+1. **Full Approval:** This occurs when there are at least 6 `Yes` votes and no more than 1 `No` vote. The Borrower is approved to access capital, and the Senior Pool allocates capital to their Borrower Pools.
+2. **Backer-Only Approval:** This occurs when there are at least 6 `Yes` or `Unsure` votes, and no more than 1 `No` vote. The Borrower is approved to access capital, but the Senior Pool does not allocate capital to their Borrower Pools.
 3. **No Approval:** This occurs when there is more than 1 `No` vote, or when there are not enough votes to meet the above approval thresholds. The Borrower is not approved to access any capital.
-
 
 ## Summary of Auditor Incentives
 

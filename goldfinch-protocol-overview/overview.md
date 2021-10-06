@@ -2,11 +2,9 @@
 
 ## Participants
 
-
 {% hint style="success" %}
 The Goldfinch protocol has four core participants: Borrowers, Backers, Liquidity Providers, and Auditors.
 {% endhint %}
-
 
 **Borrowers** are participants who seek financing, and they propose Borrower Pools for the Backers to assess. Borrower Pools contain the terms a Borrower seeks, like the interest rate and repayment schedule.
 
@@ -17,7 +15,6 @@ The Goldfinch protocol has four core participants: Borrowers, Backers, Liquidity
 Lastly, **Auditors** vote to approve Borrowers, which is required before they can borrow. Auditors are randomly selected by the protocol, and they provide a human-level check to guard against fraudulent activity.
 
 ## Architecture Diagram
-
 
 ![](https://goldfinch.finance/images/how-it-works-1.png)
 
