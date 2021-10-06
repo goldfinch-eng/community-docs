@@ -24,11 +24,11 @@ In order to create a Borrower Pool, the Borrower must also stake an amount of GF
 
 Borrowers can borrow capital through the Borrower Pool at any time. The total amount they can borrow is the minimum of:
 
-> A. The calculated limit based on the capital that Backers have supplied and the additional Senior Pool leverage amount.
->
-> B. The combined total capital that Backers have supplied in that Borrower Pool plus the remaining capital in the Senior Pool.
->
-> C. The Borrower Pool's limit.
+A. The calculated limit based on the capital that Backers have supplied and the additional Senior Pool leverage amount.
+
+B. The combined total capital that Backers have supplied in that Borrower Pool plus the remaining capital in the Senior Pool.
+
+C. The Borrower Pool's limit.
 
 After borrowing, Borrowers make repayments to the Borrower Pool according to its interest rate and payment period. When they pay more than the interest owed, the remainder is applied to the principal balance.
 

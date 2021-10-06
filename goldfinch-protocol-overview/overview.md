@@ -2,7 +2,9 @@
 
 ## Participants
 
-?&gt; The Goldfinch protocol has four core participants: Borrowers, Backers, Liquidity Providers, and Auditors.
+{% hint style="success" %}
+The Goldfinch protocol has four core participants: Borrowers, Backers, Liquidity Providers, and Auditors.
+{% endhint %}
 
 **Borrowers** are participants who seek financing, and they propose Borrower Pools for the Backers to assess. Borrower Pools contain the terms a Borrower seeks, like the interest rate and repayment schedule.
 
@@ -14,46 +16,48 @@ Lastly, **Auditors** vote to approve Borrowers, which is required before they ca
 
 ## Architecture Diagram
 
-|  ![](https://goldfinch.finance/images/how-it-works-1.png) ![](https://goldfinch.finance/images/how-it-works-2.png) ![](https://goldfinch.finance/images/how-it-works-3.png)  |
-| :--- |
+![](https://goldfinch.finance/images/how-it-works-1.png)
 
+![](https://goldfinch.finance/images/how-it-works-2.png)
+
+![](https://goldfinch.finance/images/how-it-works-3.png)
 
 ## Glossary of Core Components
 
-> * Auditors — Participants who receive GFI rewards for securing the protocol with
+> * **Auditors** — Participants who receive GFI rewards for securing the protocol with
 >
 >   a human eye.
 >
-> * Backers — Participants who supply junior tranche \(first-loss\) capital to
+> * **Backers** — Participants who supply junior tranche \(first-loss\) capital to
 >
 >   individual Borrower Pools.
 >
-> * Borrowers — Participants who raise capital from the protocol via Borrower
+> * **Borrowers** — Participants who raise capital from the protocol via Borrower
 >
 >   Pools.
 >
-> * Borrower Pool — Smart contract that encodes a set of financing terms for a
+> * **Borrower Pool** — Smart contract that encodes a set of financing terms for a
 >
 >   Borrower, including the interest rate and repayment schedule, and through
 >
 >   which the Borrower can borrow capital and repay it with those terms.
 >
-> * GFI — Token used for Governance votes, Auditor staking, Auditor vote rewards,
+> * **GFI** — Token used for Governance votes, Auditor staking, Auditor vote rewards,
 >
 >   staking on Backers, early Backer rewards, and other potential rewards for all
 >
 >   protocol participants.
 >
-> * Governance — Smart contract that is managed by the community DAO and has
+> * **Governance** — Smart contract that is managed by the community DAO and has
 >
 >   the ability to update the protocol via decentralized governance votes.
 >
-> * Leverage Model — A formula by which the Senior Pool automatically determines
+> * **Leverage Model** — A formula by which the Senior Pool automatically determines
 >
 >   how much capital to allocate to each Borrower Pool.
 >
-> * Liquidity Providers — Participants who supply capital to the Senior Pool.
-> * Senior Pool — Smart contract that accepts capital from Liquidity Providers and
+> * **Liquidity Providers** — Participants who supply capital to the Senior Pool.
+> * **Senior Pool** — Smart contract that accepts capital from Liquidity Providers and
 >
 >   automatically allocates capital to the senior tranche of Borrower Pools according
 >
