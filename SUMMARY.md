@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Goldfinch Documentation](README.md)
+* [Welcome!](README.md)
 * [Goldfinch Protocol Overview](goldfinch-protocol-overview/README.md)
   * [Introduction](goldfinch-protocol-overview/introduction.md)
   * [Goldfinch Overview](goldfinch-protocol-overview/overview.md)

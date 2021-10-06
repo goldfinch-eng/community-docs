@@ -5,7 +5,7 @@ description: >-
   https://github.com/goldfinch-eng/community-docs to contribute
 ---
 
-# Goldfinch Documentation
+# Welcome!
 
 ### Bringing Crypto Loans To The Real World
 
