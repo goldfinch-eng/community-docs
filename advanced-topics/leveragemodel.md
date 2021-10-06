@@ -23,7 +23,5 @@ $$
 L=L_{max}*\frac{max(0, b-B_{min})}{B_{max}-B_{min}}
 $$
 
-> !\[sigma\]\([https://latex.codecogs.com/svg.latex?L=L\_{max}\*\frac{max\(0, b-B\_{min}\)}{B\_{max}-B\_{min}}](https://latex.codecogs.com/svg.latex?L=L_{max}*\frac{max%280,%20b-B_{min}%29}{B_{max}-B_{min}})\)
-
 
 
