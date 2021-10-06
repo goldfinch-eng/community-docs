@@ -1,6 +1,8 @@
 # Borrowers
 
-?&gt;Borrowers are participants who seek financing from the protocol. They propose terms to Backers to supply capital to their Borrower Pools.
+{% hint style="success" %}
+Borrowers are participants who seek financing from the protocol. They propose terms to Backers to supply capital to their Borrower Pools.
+{% endhint %}
 
 ## Borrower Pool Creation
 
