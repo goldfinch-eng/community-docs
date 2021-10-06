@@ -1,17 +1,9 @@
 # Table of contents
 
-* [Goldfinch Protocol](README.md)
-* [Goldfinch Protocol Overview](goldfinch-protocol-overview/README.md)
-  * [Introduction](goldfinch-protocol-overview/introduction.md)
-  * [Goldfinch Overview](goldfinch-protocol-overview/overview.md)
-* [Participants](participants/README.md)
-  * [Borrowers](participants/borrowers.md)
-  * [Backers](participants/backers.md)
-  * [Auditors](participants/auditors.md)
-  * [Liquidity Providers](participants/liquidityproviders.md)
-* [Advanced Topics](advanced-topics/README.md)
-  * [Leverage Model](advanced-topics/leveragemodel.md)
-  * [Unique Entity Check](advanced-topics/uniqueentitycheck.md)
-  * [Governance](advanced-topics/governance.md)
-  * [Discussion of Fraud Resistance](advanced-topics/discussionoffraudresistance.md)
+* [Goldfinch Documentation](README.md)
+* [Discord](https://discord.gg/HVeaca3fN8)
+* [Github](https://github.com/goldfinch-eng)
+* [Medium](https://medium.com/goldfinch-fi)
+* [Twitter](https://twitter.com/goldfinch_fi)
+* [Telegram](https://t.me/goldfinch_finance)
 
