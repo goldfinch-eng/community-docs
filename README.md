@@ -1,8 +1,8 @@
-# :bird: Goldfinch Protocol
+# Introduction
 
-?> Bringing crypto loans to the real world
+?&gt; Bringing crypto loans to the real world
 
-Goldfinch is a decentralized credit platform for crypto loans without collateral.
- This is the missing piece that finally unlocks crypto lending for most people in the world.
+Goldfinch is a decentralized credit platform for crypto loans without collateral. This is the missing piece that finally unlocks crypto lending for most people in the world.
 
-<img src="https://goldfinch.finance/images/city.png">
+![](https://goldfinch.finance/images/city.png)
+
