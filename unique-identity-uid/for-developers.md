@@ -70,6 +70,10 @@ UID is very simple. It works by having a trusted signer (Goldfinch in this case)
 2. Submit completed KYC to our Trusted Signer, which returns a signed message to the user.
 3. User mints their UID by presenting the signed message to the UID contract
 
+### Security and Privacy
+
+All personal data is processed and handled through our partner, [Persona](https://withpersona.com). Persona has industry leading [security and privacy practices](https://withpersona.com/security). **No personal information is stored on-chain.**
+
 ### Need to get in touch?
 
 Have questions about integrating? Do you have a certain use case, or feature you'd like to see? We'd love to hear from you. Ping us at **uid@goldfinch.finance**
