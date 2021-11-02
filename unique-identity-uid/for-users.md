@@ -4,7 +4,7 @@
 
 _Please note that currently the Goldfinch protocol is only open to participants outside the US. Anyone from the U.S. who completes Steps 1 and 2 be notified once the protocol is open for U.S.-based participants._
 
-_If you have already verified you identification for Goldfinch, you can go to https://app.goldfinch.finance/verify, sign in using your verified Metamask address, and skip to Step 3 below._
+_If you have already verified you identification for Goldfinch, you may be able to skip steps 1 and 2 or skip the entire process depending on when you completed verification. To see which steps you can skip go to: https://app.goldfinch.finance/verify and sign in using your verified Metamask address._
 
 **For all new non-U.S. participants: **
 
