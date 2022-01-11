@@ -53,3 +53,10 @@ The list of past borrowers is available publicly [here](https://app.goldfinch.fi
 Flight Academy was a program that empowered the Backer community with tools and basic vocabulary needed to evaluate Debt Capital Markets deals. The program aimed to establish community values and set community norms. The academy ran from September 20, 2021, to October 25, 2021. The academy tutorials are [available](https://www.youtube.com/watch?v=4hGungwsEQk\&list=PLJsUPOCzOm\_zJ08Mgc0vLs-1pymgcO2\_-) for free. Participants were rewarded with GFI (Goldfinch's token) based on a specific criteria, as explained in the final announcements [here](https://discord.com/channels/793925570739044362/806257997680345188/921477436024168548), and [here](https://discord.com/channels/793925570739044362/806257997680345188/922571454917247036).&#x20;
 
 Currently, the community has not proposed hosting another Flight Academy. However, community members should feel empowered to propose one through governance.&#x20;
+
+
+
+**Backer Rewards vs. LP Rewards**
+
+There have been a lot of questions about the fact that retroactive distributions happened on launch day (Jan 11th) for LPs and not for Backers. Per the white paper and today’s announcement, Backers should expect to receive distributions for participating in Borrower Pools. Smart contracts for Backer distributions have already been audited and deployed, and are already on the community Github repo [here](https://github.com/goldfinch-eng/mono/blob/main/packages/protocol/contracts/rewards/BackerRewards.sol). In order for these changes to go live, the community governance just needs to vote to adopt these changes, and add it to the front-end dapp. That proposal could also include a retroactive airdrop for the Backers as well, with exact amounts to be decided by the community.\
+You can submit or discuss a proposal for Backer Rewards at [gov.goldfinch.finance](https://gov.goldfinch.finance).
