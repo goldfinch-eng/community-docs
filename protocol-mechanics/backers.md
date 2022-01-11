@@ -1,7 +1,7 @@
 # Backers
 
 {% hint style="success" %}
-Backers evaluate Borrowers and supply first-loss capital on their Borrower Pools. Backers can achieve higher returns when the Senior Pool leverages them with additional senior tranche capital.
+Backers evaluate Borrowers and supply first-loss capital on their Borrower Pools. Backers can achieve higher returns when the Senior Pool leverages them with additional senior tranche capital. Currently, Backer rewards and Backer staking are not yet live, but it is expected that the community will introduce and vote on a proposal for these in the coming months.
 {% endhint %}
 
 ## Supplying to Borrower Pools
@@ -45,4 +45,3 @@ To reward Backers for staking GFI on other Backers, the protocol distributes GFI
 ## Summary of Backer Incentives
 
 Backers have an incentive to provide first-loss capital to Borrower Pools because they can receive both early Backer rewards and higher effective yields based on the Senior Pool leverage. They also have an incentive to stake GFI on other Backers because they can earn additional rewards when that Backer supplies to Borrower Pools
-

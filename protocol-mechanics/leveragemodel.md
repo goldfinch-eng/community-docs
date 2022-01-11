@@ -1,14 +1,14 @@
 # Leverage Model
 
 {% hint style="success" %}
-The Leverage Model determines how much capital the Senior Pool allocates toward each Borrower Pool, based on how much it `trusts` each Borrower Pool.
+The Leverage Model determines how much capital the Senior Pool allocates toward each Borrower Pool, based on how much it `trusts` each Borrower Pool. Currently, the leverage model as described here is not yet, but it is expected that the community will introduce and vote on a proposal for one in the coming months.
 {% endhint %}
 
 ## Trust Through Consensus
 
 In order to determine how to allocate capital from the Senior Pool, the protocol uses a principle of "trust through consensus." This means that while the protocol doesn't trust any individual Backer or Auditor, it does trust the collective actions of many of them. At a high level: when more Backers supply to a given Borrower Pool, the Senior Pool increases the ratio with which it adds leverage.
 
-Because this approach relies on counting individual Backers, the protocol must ensure they are in fact represented by different people. Therefore, all Backers, Borrowers, and Auditors require a `unique entity check` to participate \(see the [Unique Entity Check section](uniqueentitycheck.md)\).
+Because this approach relies on counting individual Backers, the protocol must ensure they are in fact represented by different people. Therefore, all Backers, Borrowers, and Auditors require a `unique entity check` to participate (see the [Unique Entity Check section](uniqueentitycheck.md)).
 
 ## Leverage Model Formula
 
@@ -26,4 +26,3 @@ $$
 $$
 L=L_{max}*\frac{max(0, b-B_{min})}{B_{max}-B_{min}}
 $$
-

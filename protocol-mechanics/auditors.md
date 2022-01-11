@@ -1,36 +1,34 @@
 # Auditors
 
 {% hint style="success" %}
-Auditors perform human-level checks on Borrowers to confirm they are legitimate, helping to secure the protocol against fraud. Borrowers need the approval of Auditors to borrow from Borrower Pools.
+Auditors perform human-level checks on Borrowers to confirm they are legitimate, helping to secure the protocol against fraud. Borrowers need the approval of Auditors to borrow from Borrower Pools. Currently, an auditor system is not yet live, but it is expected that the community will introduce and vote on a proposal for one in the coming months.
 {% endhint %}
 
 ## Approval Votes
 
 Borrowers need an approval vote from Auditors in order to borrow. Auditors stake GFI in order to be selected for votes, and they earn GFI rewards when they vote with the majority of other Auditors, according to the rules described below.
 
-* Anyone can be an Auditor by staking a minimum amount of GFI and passing the
+*   Anyone can be an Auditor by staking a minimum amount of GFI and passing the
 
-  Unique Entity Check. When a vote is requested, the protocol selects 9 Auditors on a
+    Unique Entity Check. When a vote is requested, the protocol selects 9 Auditors on a
 
-  random basis weighted by the amount of GFI they have staked.
+    random basis weighted by the amount of GFI they have staked.
+*   When selected for a vote, Auditors evaluate whether Borrowers appear to be legitimate.
 
-* When selected for a vote, Auditors evaluate whether Borrowers appear to be legitimate.
+    In this vote, the Auditors are not evaluating the Borrower’s creditworthiness — rather,
 
-  In this vote, the Auditors are not evaluating the Borrower’s creditworthiness — rather,
+    they are providing a confirmation that the Borrower does what they claim to do and
 
-  they are providing a confirmation that the Borrower does what they claim to do and
+    that they do not appear to be colluding with any other participants.
+*   Auditors can do whatever they like to decide how to vote. In practice, they may review
 
-  that they do not appear to be colluding with any other participants.
+    off-chain documents provided by Borrowers and communicate with Borrowers directly
 
-* Auditors can do whatever they like to decide how to vote. In practice, they may review
+    through channels such as forums, email, and video calls. This can all occur off-chain on
 
-  off-chain documents provided by Borrowers and communicate with Borrowers directly
+    a variety of platforms. The protocol only needs the final vote and is agnostic to how
 
-  through channels such as forums, email, and video calls. This can all occur off-chain on
-
-  a variety of platforms. The protocol only needs the final vote and is agnostic to how
-
-  Auditors arrive at their vote.
+    Auditors arrive at their vote.
 
 ## Approval Vote Requests
 
@@ -42,8 +40,8 @@ In addition to the Borrower making their first approval request, anyone can use 
 
 Once selected, auditors have 48 hours to provide a `Yes`, `Unsure`, or `No` vote. Their GFI is slashed if they:
 
-* don’t vote within the 48 hour window, 
-* vote `Yes` when the majority vote `No`, or 
+* don’t vote within the 48 hour window,&#x20;
+* vote `Yes` when the majority vote `No`, or&#x20;
 * vote `No` when the majority vote `Yes`.
 
 {% hint style="danger" %}
@@ -59,4 +57,3 @@ Based on the way Auditors vote, there are three potential outcomes:
 ## Summary of Auditor Incentives
 
 Auditors are incentivized to participate and vote correctly in order to earn GFI rewards. Also, by staking GFI, they are both incentivized to avoid having their stake slashed and are naturally aligned with the long term success of the protocol.
-

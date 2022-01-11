@@ -4,15 +4,15 @@
 
 _Please note that currently the Goldfinch protocol is only open to participants outside the US. Anyone from the U.S. who completes Steps 1 and 2 be notified once the protocol is open for U.S.-based participants._
 
-_If you have already verified you identification for Goldfinch, you may be able to skip steps 1 and 2 or skip the entire process depending on when you completed verification. To see which steps you can skip go to: https://app.goldfinch.finance/verify and sign in using your verified Metamask address._
+_If you have already verified your identification for Goldfinch, you may be able to skip steps 1 and 2 or skip the entire process depending on when you completed verification. To see which steps you can skip go to: https://app.goldfinch.finance/verify and sign in using your verified MetaMask address._
 
-**For all new non-U.S. participants: **
+**For all new non-U.S. participants:**&#x20;
 
 ### Step 1: Sign In
 
-Head over to https://app.goldfinch.finance/verify. Click the “Sign In” button and use Metamask to sign in to Goldfinch with the Metamask address you’d like to use with the protocol.&#x20;
+Head over to https://app.goldfinch.finance/verify. Click the “Sign In” button and use MetaMask to sign in to Goldfinch with the MetaMask address you’d like to use with the protocol.&#x20;
 
-### Step 2: Verify your Metamask address
+### Step 2: Verify your MetaMask address
 
 Select whether you represent a non-U.S. individual, a U.S. individual or an entity. You’ll then be prompted to enter your contact information and will be redirected to Persona - the Goldfinch protocol’s identity verification partner - to complete an identification check. Please have your ID ready and be prepared to take a quick selfie. Completing this step will allow you to participate in the Senior Pool.&#x20;
 
@@ -23,3 +23,7 @@ Once you have successfully verified your identity, you will be redirected back t
 ### Step 4: Earn!
 
 To provide liquidity to the Senior Pool as a Liquidity Provider, or to participate as a Backer in Borrower Pools, check out: https://app.goldfinch.finance/earn.
+
+## **Helpful tips for verification**&#x20;
+
+For help on the verification process, [go here](https://app.gitbook.com/o/-MlGaNC-Iz8PIEY9KAoy/s/-MlGaVCGIXm8i0k0uhfS/c/OJLRxpBr4Bz8WoKMWkU2/tutorials/how-to-get-started-on-goldfinch/step-2-verify-your-identity).

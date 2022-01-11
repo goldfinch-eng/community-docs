@@ -31,7 +31,7 @@ contract MyContract {
 
 ```
 
-**Note: **UID currently only operates on Ethereum mainnet. The contract itself can be found [here](https://etherscan.io/token/0xba0439088dc1e75f58e0a7c107627942c15cbb41#readProxyContract)
+**Note:** UID currently only operates on Ethereum mainnet. The contract itself can be found [here](https://etherscan.io/token/0xba0439088dc1e75f58e0a7c107627942c15cbb41#readProxyContract)
 
 ### Integrating UID in your dApp
 
@@ -57,7 +57,7 @@ async function hasUID(userAddress) {
 If your users don't already have a UID, you can send them to our front-ends to be verified at [app.goldfinch.finance/verify](https://app.goldfinch.finance/verify).
 
 {% hint style="info" %}
-**Please note**: UID is only open to non-U.S. individuals right now. We are working hard to allow U.S. individuals as soon as possible.
+**Please note**: UID is only open to non-U.S. individuals right now.&#x20;
 {% endhint %}
 
 ### **How It Works**
@@ -66,14 +66,14 @@ UID is very simple. It works by having a trusted signer (Goldfinch in this case)
 
 **So the user flow looks like this...**
 
-1. User completes KYC flow (on [app.goldfinch.finance/verify](https://app.goldfinch.finance/verify), via our partner [Persona](https://withpersona.com))
-2. Submit completed KYC to our Trusted Signer, which returns a signed message to the user.
-3. User mints their UID by presenting the signed message to the UID contract
+1. User completes KYC flow (on [app.goldfinch.finance/verify](https://app.goldfinch.finance/verify), via our partner [Persona](https://withpersona.com)).
+2. Submit completed KYC to the Trusted Signer, which returns a signed message to the user.
+3. User mints their UID by presenting the signed message to the UID contract.
 
 ### Security and Privacy
 
-All personal data is processed and handled through our partner, [Persona](https://withpersona.com). Persona has industry leading [security and privacy practices](https://withpersona.com/security). **No personal information is stored on-chain.**
+All personal data is processed and handled through [Persona](https://withpersona.com). Persona has industry leading [security and privacy practices](https://withpersona.com/security). **No personal information is stored on-chain.**
 
 ### Need to get in touch?
 
-Have questions about integrating? Do you have a certain use case, or feature you'd like to see? We'd love to hear from you. Ping us at **uid@goldfinch.finance**
+Have questions about integrating? Do you have a certain use case, or feature you'd like to see? The community would love to hear from you. Reach out at **uid@goldfinch.finance**

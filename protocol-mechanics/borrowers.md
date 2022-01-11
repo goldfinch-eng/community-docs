@@ -1,7 +1,7 @@
 # Borrowers
 
 {% hint style="success" %}
-Borrowers are participants who seek financing from the protocol. They propose terms to Backers to supply capital to their Borrower Pools.
+Borrowers are participants who seek financing from the protocol. They propose terms to Backers to supply capital to their Borrower Pools. Currently, Borrower Pool creation is not available through the Goldfinch dapp, but it is expected that the community will introduce this functionality in the coming weeks.
 {% endhint %}
 
 ## Borrower Pool Creation
@@ -14,7 +14,7 @@ A Borrower Pool is the smart contract through which Borrowers borrow and repay c
 * Term: When the full principal is due, e.g. 365 days.
 * Late Fee: Additional interest owed when payments are late, e.g. 5%.
 
-Creating a Borrower Pool is like proposing a “term sheet” to Backers. It does not guarantee the terms will be accepted, since Borrowers then need to convince Backers to supply junior tranche \(first-loss\) capital. The amount Borrowers can borrow is based on how much Backers supply, combined with the amount the Senior Pool allocates based on the Leverage Model.
+Creating a Borrower Pool is like proposing a “term sheet” to Backers. It does not guarantee the terms will be accepted, since Borrowers then need to convince Backers to supply junior tranche (first-loss) capital. The amount Borrowers can borrow is based on how much Backers supply, combined with the amount the Senior Pool allocates based on the Leverage Model.
 
 Notably, Borrowers need to set a limit for their Borrower Pools, a self-imposed cap on how much capital they can borrow. While Borrowers might ideally want an infinite limit, Backers want to know that they are staking first-loss capital only towards a total potential amount that the Borrowers can safely deploy. Borrowers therefore have an incentive to set the limit only as high as they can convince Backers they can safely use.
 
@@ -32,7 +32,7 @@ C. The Borrower Pool's limit.
 
 After borrowing, Borrowers make repayments to the Borrower Pool according to its interest rate and payment period. When they pay more than the interest owed, the remainder is applied to the principal balance.
 
-## Junior and Senior Tranches
+## Junior and Senior Tranches <a href="#juniorseniortranches" id="juniorseniortranches"></a>
 
 Borrower Pools have both a junior and senior tranche. Backers supply capital to the junior tranche, and the Senior Pool supplies capital to the senior tranche. When a borrower makes repayments, the Borrower Pool applies the amount first toward any interest and principal owed to the senior tranche at that time, and then toward any interest and principal owed to the junior tranche at that time.
 
@@ -55,4 +55,3 @@ The first incentive is that Borrowers likely want to continue borrowing from Gol
 The second incentive is that because Borrowers need to publicize their address when proposing pools to Backers, their on-chain history becomes public to future creditors, even those off-chain.
 
 Lastly, while not explicitly supported by the protocol, Backers may form off-chain legal agreements with Borrowers. Backers may require such an agreement to be in effect, either with them directly or with another Backer, in order to be willing to supply capital. In these cases, the legal agreement and potential recourse are another important incentive for Borrowers.
-
