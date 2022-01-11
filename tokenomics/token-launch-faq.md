@@ -20,7 +20,11 @@ The frequency with which more of your GFI becomes claimable is the "unlock inter
 
 #### **I was a Liquidity Provider in the Senior Pool before Token Launch. Will I get tokens?**
 
-Yes, if you are a non-U.S. person. Existing Liquidity Providers were allocated GFI distributions during the token launch —  see how they were allocated on the [Tokenomics page](./). In addition, existing Liquidity Providers can receive more tokens through [liquidity mining](../protocol-mechanics/senior-pool-liquidity-mining.md) by staking their FIDU. Learn [how to participate in liquidity mining here](../guides/participating-in-liquidity-mining.md).&#x20;
+Yes, if you are a non-U.S. person, and if you kept your capital in the Senior Pool until December 14, 2021 at UTC 10:00:17 PM, you will get GFI. Existing Liquidity Providers were allocated GFI distributions during the token launch —  see how they were allocated on the [Tokenomics page](./). In addition, existing Liquidity Providers can receive more tokens through [liquidity mining](../protocol-mechanics/senior-pool-liquidity-mining.md) by staking their FIDU. Learn [how to participate in liquidity mining here](../guides/participating-in-liquidity-mining.md).&#x20;
+
+#### **I withdrew capital from the Senior Pool before the January 11, 2020 Token Launch. Will I get tokens?**
+
+All parties that had capital in the Senior Pool until December 14th, 2021 UTC 10:00:17 PM snapshot will receive GFI. The exact block: [https://etherscan.io/block/13805859](https://etherscan.io/block/13805859). Withdrawal before this point means forfeiting of GFI rewards.
 
 #### **I was a community member on Discord. Will I receive GFI?**
 
