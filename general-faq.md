@@ -42,7 +42,7 @@ Goldfinch does not ask Borrowers to deposit any on-chain collateral to take out 
 
 #### **Has the Goldfinch protocol been audited?**
 
-Yes, by [Certik](https://www.certik.com) and [Trail of Bits](https://www.trailofbits.com). The initial V2 of the protocol (the design outlined in the white paper) has been audited by Certik (here is the [Github repo](https://github.com/goldfinch-eng/goldfinch-contracts)). Another audit was done by Trail of Bits (https://www.trailofbits.com/) in November 2021.
+Yes, by [Certik](https://www.certik.com) and [Trail of Bits](https://www.trailofbits.com). The initial V2 of the protocol (the design outlined in the white paper) has been audited by Certik (here is the [Github repo](https://github.com/goldfinch-eng/goldfinch-contracts)). Another audit was done by Trail of Bits (https://www.trailofbits.com/) in November 2021 (here is the [Github repo](https://github.com/goldfinch-eng/goldfinch-contracts)).
 
 #### **Who are the current Borrowers using the protocol?**
 
