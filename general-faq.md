@@ -18,11 +18,11 @@ The app is still in English. However, there are different language channels set 
 
 #### **Is Goldfinch a blockchain?**
 
-No, it is not. Goldfinch is being built on top of the Ethereum blockchain.
+No, it is not. Goldfinch is built on top of the Ethereum blockchain.
 
-#### **Are the smart contracts open source?**
+#### **Is Goldfinch open source?**
 
-Yes. Here is a link to the Github repository: [https://github.com/goldfinch-eng/goldfinch-contracts](https://github.com/goldfinch-eng/goldfinch-contracts).
+Yes. All code, including the front-ends can be found at [https://github.com/goldfinch-eng/mono](https://github.com/goldfinch-eng/mono). Just the smart contracts and associated audits can be found here: [https://github.com/goldfinch-eng/goldfinch-contracts](https://github.com/goldfinch-eng/goldfinch-contracts).
 
 #### Does Goldfinch h**ave a Bug Bounty program?**
 
@@ -58,3 +58,5 @@ Currently, the community has not proposed hosting another Flight Academy. Howeve
 
 There have been a lot of questions about the fact that retroactive distributions happened on launch day (Jan 11th) for LPs and not for Backers. Per the white paper and today’s announcement, Backers should expect to receive distributions for participating in Borrower Pools. Smart contracts for Backer distributions have already been audited and deployed, and are already on the community Github repo [here](https://github.com/goldfinch-eng/mono/blob/main/packages/protocol/contracts/rewards/BackerRewards.sol). In order for these changes to go live, the community governance just needs to vote to adopt these changes, and add it to the front-end dapp. That proposal could also include a retroactive airdrop for the Backers as well, with exact amounts to be decided by the community.\
 You can submit or discuss a proposal for Backer Rewards at [gov.goldfinch.finance](https://gov.goldfinch.finance).
+
+UPDATE: There is a proposal for a retroactive Backer airdrop as well as Backer Rewards [here](https://gov.goldfinch.finance/t/retroactive-backer-distribution-proposal-3-with-data/252).
