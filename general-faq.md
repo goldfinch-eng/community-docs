@@ -8,6 +8,10 @@ There are several ways to get involved in the Goldfinch protocol. The best ways 
 * Being a Liquidity Provider in the Senior Pool (see[ Liquidity Providers ](protocol-mechanics/liquidityproviders.md)to learn more).
 * Being a Backer to Borrower Pools (see [Borrower Pools](broken-reference) to learn more)
 
+#### **Do I need to be an accredited investor to participate in the Senior Pool?**
+
+No — anyone, except US persons, can participate in the [Senior Pool](guides/participating-in-the-senior-pool.md).&#x20;
+
 #### **Where can I find the updates of the Goldfinch Protocol?**
 
 You can find all the updates in the the [Goldfinch Discord](https://discord.com/invite/HVeaca3fN8) server, [Telegram](https://t.me/goldfinch\_finance), [Twitter](https://twitter.com/goldfinch\_fi), and sometimes on [Medium.](https://medium.com/goldfinch-fi)
