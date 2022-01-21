@@ -50,7 +50,7 @@ Yes, by [Certik](https://www.certik.com) and [Trail of Bits](https://www.trailof
 
 #### **Who are the current Borrowers using the protocol?**
 
-The list of past borrowers is available publicly [here](https://app.goldfinch.finance/earn) under `Borrower Pools`.
+The list of past borrowers is available publicly [here](https://app.goldfinch.finance/earn) under `Borrower Pools`. The focus right now is on credit funds and later stage borrowers who are series B and beyond.
 
 #### I heard about "Flight Academy", what was that?
 
