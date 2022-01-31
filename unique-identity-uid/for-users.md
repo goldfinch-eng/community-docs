@@ -2,11 +2,9 @@
 
 ## How to get your UID
 
-_Please note that currently the Goldfinch protocol is only open to participants outside the US. Anyone from the U.S. who completes Steps 1 and 2 be notified once the protocol is open for U.S.-based participants._
+_As of January 26, 2022, US individuals can obtain a Unique Identity (UID). This will allow US-based GFI holders to participate in_ [_governance_](../governance.md#participation)_._
 
 _If you have already verified your identification for Goldfinch, you may be able to skip steps 1 and 2 or skip the entire process depending on when you completed verification. To see which steps you can skip go to: https://app.goldfinch.finance/verify and sign in using your verified MetaMask address._
-
-**For all new non-U.S. participants:**&#x20;
 
 ### Step 1: Sign In
 
@@ -23,7 +21,3 @@ Once you have successfully verified your identity, you will be redirected back t
 ### Step 4: Earn!
 
 To provide liquidity to the Senior Pool as a Liquidity Provider, or to participate as a Backer in Borrower Pools, check out: https://app.goldfinch.finance/earn.
-
-## **Helpful tips for verification**&#x20;
-
-For help on the verification process, [go here](https://app.gitbook.com/o/-MlGaNC-Iz8PIEY9KAoy/s/-MlGaVCGIXm8i0k0uhfS/c/OJLRxpBr4Bz8WoKMWkU2/tutorials/how-to-get-started-on-goldfinch/step-2-verify-your-identity).
