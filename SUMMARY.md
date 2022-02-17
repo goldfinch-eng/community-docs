@@ -41,3 +41,4 @@
 * [Medium](https://medium.com/goldfinch-fi)
 * [Youtube](https://www.youtube.com/channel/UCrun7\_MCTulBSMz7NUWDMjw)
 * [Immunefi Bug Bounty](https://immunefi.com/bounty/goldfinch/)
+* [Borrower Launch](https://docs.goldfinch.finance/launching-on-the-goldfinch-protocol/)
