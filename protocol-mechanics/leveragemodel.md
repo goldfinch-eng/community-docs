@@ -1,7 +1,7 @@
 # Leverage Model
 
 {% hint style="success" %}
-The Leverage Model determines how much capital the Senior Pool allocates toward each Borrower Pool, based on how much it `trusts` each Borrower Pool. Currently, the leverage model as described here is not yet, but it is expected that the community will introduce and vote on a proposal for one in the coming months.
+The Leverage Model determines how much capital the Senior Pool allocates toward each Borrower Pool, based on how much it `trusts` each Borrower Pool. Currently, the leverage model as described here is not yet live, but the community put forward a proposal, linked [here](https://docs.goldfinch.finance/goldfinch/protocol-mechanics/leveragemodel).
 {% endhint %}
 
 ## Trust Through Consensus
