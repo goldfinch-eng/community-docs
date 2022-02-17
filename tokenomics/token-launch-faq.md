@@ -49,4 +49,4 @@ Yes, after you have claimed your GFI. Ledger supports ERC20 tokens like GFI.
 
 #### **I was a Backer for one or more Borrower Pools. Will I get GFI?**
 
-Currently, the functionality is not in place for the Backers to receive GFI for participating in  Borrower Pools. However, according to the white paper, this is a functionality that will be developed over the upcoming months, pending community approval.&#x20;
+The audit for the Backer GFI rewards was submitted in February 2022are now live, after proposals on [Backer Liquidity Mining](https://snapshot.org/#/goldfinch.eth/proposal/0xb716c18c38eb1828044aca84a1466ac08221a37a96ce73b04e9caa847e13e0da) was passed by the community. In addition, Backers will be able to participate in Staking Rewards liquidity mining, as per [another proposal](https://snapshot.org/#/goldfinch.eth/proposal/0x10a390307e3834af5153dc58af0e20cbb0e08d38543be884b622b55bfcd5818d) passed by the community.

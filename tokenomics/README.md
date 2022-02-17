@@ -24,7 +24,7 @@ The initial allocation of the total supply of GFI are as follows:
 
 3.0% — Flight Academy: These tokens are allocated to the 10,182 non-U.S. participants in Flight Academy. 2.85% are distributed [according to the tiers described in this post](https://goldfinchfinance.notion.site/Flight-Academy-Rewards-Update-05aeb437087c4eee90f00523897f1ef6), with an unlock schedule ranging from immediate to 24 months. The remaining 0.15% are allocated to future participants.
 
-2.0% — Backer Pool Liquidity Mining: These tokens are allocated for Backers who participate in Borrower pools. Pending community approval, the Backer Pool liquidity mining system will grant tokens to Backers as interest payments are made into Borrower pools. Additionally, there will be retroactive distributions for existing Backers who have already supplied to Borrower pools. This is not yet live, but we expect the community to introduce and vote on a proposal for this in the coming months.
+2.0% — Backer Pool Liquidity Mining: These tokens are allocated for Backers who participate in Borrower pools, and will be live pending an engineering audit in February 2022, after aThe Backer Pool liquidity mining system grants tokens to Backers as interest payments are made into Borrower pools, and the system will be in place following an audit in February 2022, as per a  [governance proposal](https://snapshot.org/#/goldfinch.eth/proposal/0xb716c18c38eb1828044aca84a1466ac08221a37a96ce73b04e9caa847e13e0da). There will also be retroactive distributions for existing Backers who have already supplied to Borrower pools – [this proposal](https://snapshot.org/#/goldfinch.eth/proposal/0xb716c18c38eb1828044aca84a1466ac08221a37a96ce73b04e9caa847e13e0da) has more details.
 
 3.0% — Backer Staking: These tokens are allocated for Backers who stake GFI on other backers, as described in the [whitepaper](https://goldfinch.finance/goldfinch\_whitepaper.pdf). This is not yet live, but the community is expected to introduce and vote on a proposal for this in the coming months.
 
@@ -55,6 +55,3 @@ The initial allocation of the total supply of GFI are as follows:
 ### Early Supporters (21.6%)&#x20;
 
 21.6% is allocated to a group of 60+ early supporters who invested $37M to help build the protocol. These supporters are all long-term oriented and have 3-year unlock schedules, as well as an initial 6-month lock-up and 12-month transfer restriction.
-
-
-
