@@ -14,7 +14,7 @@ Read about Borrower Pools and on the [Backers page](../protocol-mechanics/backer
 
 #### Understanding the risks
 
-<mark style="color:red;">**It is important to understand that you can lose money by participating in the Senior Pool.**</mark> If a Borrower doesn't repay the amount they borrow, you will lose your relative portion of that amount. By participating as a Backer, you are taking higher risk by providing first-loss capital — when a Borrower pays back a portion of what they owe, that payment is first applied to the Senior Pool before it is applied to Backers. Therefore, it is possible for Borrowers to make partial repayments and for you to still lose 100% of the amount you supplied.
+<mark style="color:red;">**It is important to understand that you can lose money by participating in the Borrower Pools.**</mark> If a Borrower doesn't repay the amount they borrow, you will lose your relative portion of that amount. By participating as a Backer, you are taking higher risk by providing first-loss capital — when a Borrower pays back a portion of what they owe, that payment is first applied to the Senior Pool before it is applied to Backers. Therefore, it is possible for Borrowers to make partial repayments and for you to still lose 100% of the amount you supplied.
 
 #### When Borrower Pools are open
 
