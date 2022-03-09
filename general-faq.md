@@ -32,9 +32,9 @@ Yes. All code, including the front-ends can be found at [https://github.com/gold
 
 Yes, Goldfinch has a [Bug Bounty program](https://immunefi.com/bounty/goldfinch/) in partnership with Immunefi.
 
-#### **Does the dapp support MetaMask, Ledger, and Trezor?**
+#### **Which wallets does the dapp support?**&#x20;
 
-Both MetaMask and Ledger work, and Ledger performs optimally through Firefox. Trezor is currently not supported.
+The dapp supports [WalletConnect](https://walletconnect.com), [Metamask](https://metamask.io), and [Ledger](https://www.ledger.com/ledger-live/download). Ledger performs optimally through [Firefox](https://www.mozilla.org/en-US/firefox/new/). [Trezor](https://trezor.io) is currently not supported.
 
 #### What is the currency of the loans?
 
