@@ -42,7 +42,7 @@ Each Borrower Pool has a unique set of requirements, which are announced on the 
    1. Note: You will be required to enter your real world full legal name, and this name will be added to the real world transaction agreement. This gives you all the associated rights, benefits, and security of the transaction you are investing in.
    2. Note: Sometimes, pools will have a cap on the maximum amount that can be supplied. You may need to adjust your amount accordingly.
 5. Click `I Agree`.
-6. Accept the transaction on MetaMask.
+6. Accept the transaction on your wallet.
 7. Done. You should now see the additional USDC in your balance at the top of the page.
    1. Note: When you supply to a Borrower Pool, you receive an NFT that acts a "digital receipt"  representing the amount you supplied.
 

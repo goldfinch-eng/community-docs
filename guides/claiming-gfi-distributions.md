@@ -8,11 +8,11 @@ description: This is a manual for receiving GFI.
 
 1. Go to **** [https://app.goldfinch.finance/gfi](https://app.goldfinch.finance/gfi).
 2. This page will list all of the GFI you have received
-3. If a particular GFI distribution has an unlock schedule, you will need to first `Accept` it. This will open a transaction to accept in Metamask.
+3. If a particular GFI distribution has an unlock schedule, you will need to first `Accept` it. This will open a transaction to accept in your wallet.
    1. Note: By accepting, you will mint an NFT that automatically manages the unlock schedule
    2. After accepting, it should now show a `Claim` button. You will be able to claim more GFI over time as it unlocks.
 4. Click `Claim` to claim the GFI. This will open a prompt, where you can click `Claim` again.
-5. Accept the transaction on MetaMask.
+5. Accept the transaction on your wallet.
 6. Done. You should now see the GFI in you wallet balance.
 
 #### The difference between "Accept" and "Claim"
