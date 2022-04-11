@@ -7,12 +7,14 @@ description: >-
 # For Developers
 
 {% hint style="warning" %}
-UID should be considered **alpha** **software**. It is used for the Goldfinch protocol, and we would love to see other protocols leverage the work we've done, but we cannot guarantee support or maintenance at this time. Use at your own risk. If you have questions or feedback, please contact us! uid@goldfinch.finance. We'd love to hear from you!
+UID should be considered alpha software. It is used for the Goldfinch protocol, and we would love to see other protocols leverage the work we've done, but we cannot guarantee support or maintenance at this time. Use at your own risk. If you have questions or feedback, please contact us at uid@goldfinch.finance. We'd love to hear from you!
 {% endhint %}
 
 ### Integrating UID in your smart contracts
 
 To integrate UID into your smart contracts, simply check the balance of your user's address to see if they possess the UID token. In Solidity, it would look like this:
+
+
 
 ```
 # This is using OpenZeppelin's ERC1155 preset contracts:

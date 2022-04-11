@@ -34,6 +34,7 @@
 
 * [Governance Portal](https://gov.goldfinch.finance)
 * [Data Dashboard](https://dune.xyz/goldfinch/goldfinch)
+* [November 2021 Audit](https://github.com/goldfinch-eng/goldfinch-contracts)
 * [Github](https://github.com/goldfinch-eng)
 * [Discord](https://discord.gg/HVeaca3fN8)
 * [Twitter](https://twitter.com/goldfinch\_fi)
