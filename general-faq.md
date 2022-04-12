@@ -6,11 +6,11 @@ There are several ways to get involved in the Goldfinch protocol. The best ways 
 
 * Participating as an active community member by joining the [Discord.](https://discord.com/invite/HVeaca3fN8)
 * Being a Liquidity Provider in the Senior Pool (see[ Liquidity Providers ](protocol-mechanics/liquidityproviders.md)to learn more).
-* Being a Backer to Borrower Pools (see [Borrower Pools](broken-reference) to learn more)
+* Being a Backer to Borrower Pools (see [Borrower Pools](broken-reference) to learn more).
 
 #### **Do I need to be an accredited investor to participate in the Senior Pool?**
 
-No — anyone, except US persons, can participate in the [Senior Pool](guides/participating-in-the-senior-pool.md).&#x20;
+No — anyone can participate in the [Senior Pool](guides/participating-in-the-senior-pool.md). To learn how to participate, click [here](guides/participating-in-the-senior-pool.md).
 
 #### **Where can I find the updates of the Goldfinch Protocol?**
 
@@ -60,7 +60,9 @@ Currently, the community has not proposed hosting another Flight Academy. Howeve
 
 #### **Backer Rewards vs. LP Rewards**
 
-There have been a lot of questions about the fact that retroactive distributions happened on launch day (Jan 11th) for LPs and not for Backers. Per the white paper and today’s announcement, Backers should expect to receive distributions for participating in Borrower Pools. Smart contracts for Backer distributions have already been audited and deployed, and are already on the community Github repo [here](https://github.com/goldfinch-eng/mono/blob/main/packages/protocol/contracts/rewards/BackerRewards.sol). In order for these changes to go live, the community governance just needs to vote to adopt these changes, and add it to the front-end dapp. That proposal could also include a retroactive airdrop for the Backers as well, with exact amounts to be decided by the community.\
+There have been a lot of questions about the fact that retroactive distributions happened on launch day (Jan 11th) for LPs and not for Backers. Per the white paper, Backers should expect to receive distributions for participating in Borrower Pools. Smart contracts for Backer distributions have already been audited and deployed, and are already on the community Github repo [here](https://github.com/goldfinch-eng/mono/blob/main/packages/protocol/contracts/rewards/BackerRewards.sol). In order for these changes to go live, the community governance just needs to vote to adopt these changes, and add it to the front-end dapp. That proposal could also include a retroactive airdrop for the Backers as well, with exact amounts to be decided by the community.\
+
+
 You can submit or discuss a proposal for Backer Rewards at [gov.goldfinch.finance](https://gov.goldfinch.finance).
 
-UPDATE: There is a proposal for a retroactive Backer airdrop as well as Backer Rewards [here](https://gov.goldfinch.finance/t/retroactive-backer-distribution-proposal-3-with-data/252).
+**Update**: There is a proposal for a retroactive Backer airdrop as well as Backer Rewards [here](https://gov.goldfinch.finance/t/retroactive-backer-distribution-proposal-3-with-data/252).
