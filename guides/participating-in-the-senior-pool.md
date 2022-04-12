@@ -4,10 +4,6 @@ description: This section covers instructions on supplying / staking in the Seni
 
 # Participating in the Senior Pool
 
-{% hint style="info" %}
-The Senior Pool is only open non-U.S. persons.
-{% endhint %}
-
 [Liquidity Providers](../protocol-mechanics/liquidityproviders.md) participate in the the Senior Pool to earn passive yield. The Senior Pool is a smart contract that automatically allocates capital across all Borrower Pools according to the consensus those pools receive from Backers.&#x20;
 
 ## Learning about the Senior Pool
