@@ -35,3 +35,6 @@ The Goldfinch Council has been set up to execute limited types of on-chain trans
 * **Early Team —** [**Blake West**](https://twitter.com/\_blakewest)**,** Cofounder of [Warbler Labs](https://twitter.com/warblerlabs), which is part of the Goldfinch community and supports the growth and development of the Goldfinch ecosystem and broader DeFi space.
 * **Early Team —** [**Andrew Huelsenbeck**](https://www.linkedin.com/in/ahuelsen/)**,** Head of Operations at [Warbler Labs](https://twitter.com/warblerlabs), which is part of the Goldfinch community and supports the growth and development of the Goldfinch ecosystem and broader DeFi space.
 
+## Community-driven Proposal Tracker
+
+Head on over [here](https://goldfinch-community.notion.site/Governance-Proposals-f1a743f6657a453081556e5e7cc6a204) to see past proposals and track upcoming proposals.
