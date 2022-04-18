@@ -37,4 +37,4 @@ The Goldfinch Council has been set up to execute limited types of on-chain trans
 
 ## Community-driven Proposal Tracker
 
-Head on over [here](https://goldfinch-community.notion.site/Governance-Proposals-f1a743f6657a453081556e5e7cc6a204) to see past proposals and track upcoming proposals.
+Head on over [here](https://goldfinch-community.notion.site/Governance-Proposals-f1a743f6657a453081556e5e7cc6a204) to keep a track of current and upcoming proposals.
