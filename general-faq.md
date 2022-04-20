@@ -66,3 +66,7 @@ There have been a lot of questions about the fact that retroactive distributions
 You can submit or discuss a proposal for Backer Rewards at [gov.goldfinch.finance](https://gov.goldfinch.finance).
 
 **Update**: There is a proposal for a retroactive Backer airdrop as well as Backer Rewards [here](https://gov.goldfinch.finance/t/retroactive-backer-distribution-proposal-3-with-data/252).
+
+#### If a Borrower defaults, is the money paid back on-chain or off-chain?
+
+In practice, there are security agents with each Borrower that are instructed to liquidate the pledged collateral, convert into USDC, and make payments on chain into the relevant Borrower pool. The Senior Pool and Backers are then able to claim their portion of the funds from the Borrower pool.
