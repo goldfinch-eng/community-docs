@@ -6,6 +6,7 @@
   * [Glossary of key terms](protocol-mechanics/glossary-of-key-terms.md)
   * [Borrowers](protocol-mechanics/borrowers.md)
   * [Backers](protocol-mechanics/backers.md)
+  * [Backer Incentives](protocol-mechanics/backer-incentives.md)
   * [Liquidity Providers](protocol-mechanics/liquidityproviders.md)
   * [Auditors](protocol-mechanics/auditors.md)
   * [Leverage Model](protocol-mechanics/leveragemodel.md)
