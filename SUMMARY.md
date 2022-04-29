@@ -14,6 +14,7 @@
   * [GFI Token](protocol-mechanics/gfi-token.md)
   * [Senior Pool Liquidity Mining](protocol-mechanics/senior-pool-liquidity-mining.md)
   * [Discussion of Fraud Resistance](protocol-mechanics/discussionoffraudresistance.md)
+  * [Staking](protocol-mechanics/staking.md)
 * [Governance](governance.md)
 * [Tokenomics](tokenomics/README.md)
   * [Token Launch FAQ](tokenomics/token-launch-faq.md)
