@@ -42,8 +42,6 @@ Backer Rewards Interest repayments to a Pool earn GFI for Backers according to t
 
 ![](https://lh3.googleusercontent.com/fwAIIkW4pZDVFJqi2Cb8Dy3-d\_5Bhw-IZd3qw4jtjd8\_DzwreXvQpiv2DnVvKYI2-G6mV\_jHBetfXCSrmbghKv8phLyvWNd15oUh6PjOMigih9rp7VYxcSSrTPlsBhnaRcqb9C7-)
 
-_A total of 3% of Interest will be distributed as Backer Rewards, which the protocol will reach cumulatively as Interest is repaid to Goldfinch by Borrowers._
-
 #### Backer Staking Rewards&#x20;
 
 From the time of drawdown of the Pool's Backer capital, until the term end time of the loan, the protocol calculates an amount of "virtual" FIDU, corresponding to the borrowed amount of capital supplied by the backer, that would have earned the APY-from-GFI of Senior Pool staking, if that amount of FIDU had been staked in the Senior Pool. The backer earns an equivalent\[^1] amount of GFI as they would have earned from staking this amount of “virtual” FIDU in the Senior Pool.
