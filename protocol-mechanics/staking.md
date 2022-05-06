@@ -6,7 +6,9 @@ Following a successful [community governance proposal](https://gov.goldfinch.fin
 
 GFI rewards for staking Curve LP positions come from the existing distribution parameters of the Senior Pool Liquidity Mining program, including being subject to the same unlock schedule as well. 
 
+Participants can deposit their unstaked FIDU or USDC into the Curve FIDU-USDC liquidity pool by visiting the [Stake](https://app.goldfinch.finance/stake) tab on the Goldfinch protocol platform, and selecting either Deposit FIDU or Deposit USDC under LP on Curve. In the same interface, a participant can select the check box to simultaneously stake their resulting Curve LP positions on the Goldfinch platform in order to receive GFI rewards for their participation.   
 
+In addition, those participating in Senior Pool Liquidity Mining by staking FIDU on Goldfinch can also deposit their staked FIDU into the Curve FIDU-USDC liquidity pool via the Goldfinch protocol platform, to earn additional LP rewards without needing to unstake from Goldfinch. Participants can migrate their staked FIDU to deposit into the Curve FIDU-USDC pool by visiting the [Stake](https://app.goldfinch.finance/stake) tab in the platform, and selecting FIDU, then Migrate, under Stake on Goldfinch.
 
 ### Current Parameters
 
