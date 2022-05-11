@@ -58,9 +58,10 @@ Flight Academy was a program that empowered the Backer community with tools and 
 
 Currently, the community has not proposed hosting another Flight Academy. However, community members should feel empowered to propose one through governance.&#x20;
 
-#### **Backer Rewards vs. LP Rewards**
+#### **Backer Incentives vs. LP Incentives**
 
-There have been a lot of questions about the fact that retroactive distributions happened on launch day (Jan 11th) for LPs and not for Backers. Per the white paper, Backers should expect to receive distributions for participating in Borrower Pools. Smart contracts for Backer distributions have already been audited and deployed, and are already on the community Github repo [here](https://github.com/goldfinch-eng/mono/blob/main/packages/protocol/contracts/rewards/BackerRewards.sol). In order for these changes to go live, the community governance just needs to vote to adopt these changes, and add it to the front-end dapp. That proposal could also include a retroactive airdrop for the Backers as well, with exact amounts to be decided by the community.\
+There have been a lot of questions about the fact that retroactive distributions happened on launch day (Jan 11th) for LPs and not for Backers. Per the white paper, and because of this community-approved [governance proposal](https://gov.goldfinch.finance/t/backer-participation-in-staking-rewards/682), Backers will now receive distributions for participating in Borrower Pools. The smart contracts for Backer distributions have already been audited and deployed, and are already on the community Github repo [here](https://github.com/goldfinch-eng/mono/blob/main/packages/protocol/contracts/rewards/BackerRewards.sol). \
+Read more about Backer Incentives [here](protocol-mechanics/backer-incentives.md)\
 
 
 You can submit or discuss a proposal for Backer Rewards at [gov.goldfinch.finance](https://gov.goldfinch.finance).
