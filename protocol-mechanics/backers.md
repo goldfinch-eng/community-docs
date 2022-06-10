@@ -1,7 +1,7 @@
 # Backers
 
 {% hint style="success" %}
-Backers evaluate Borrowers and supply first-loss capital on their Borrower Pools. Backers can achieve higher returns when the Senior Pool leverages them with additional senior tranche capital. Currently, Backer rewards and Backer staking are not yet live, but it is expected that the community will introduce and vote on a proposal for these in the coming months.
+Backers evaluate Borrowers and supply first-loss capital on their Borrower Pools. Backers can achieve higher returns when the Senior Pool leverages them with additional senior tranche capital.&#x20;
 {% endhint %}
 
 ## Supplying to Borrower Pools
