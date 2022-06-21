@@ -6,7 +6,7 @@ Go to [https://app.goldfinch.finance/gfi](https://app.goldfinch.finance/gfi). If
 
 #### **How can I receive more GFI?**
 
-You can receive more tokens through [liquidity mining](../protocol-mechanics/senior-pool-liquidity-mining.md) as a Liquidity Provider. Learn [how to participate in liquidity mining here](../guides/participating-in-liquidity-mining.md).&#x20;
+You can receive more tokens through [liquidity mining](../protocol-mechanics/investor-incentives/senior-pool-liquidity-mining.md) as a Liquidity Provider. Learn [how to participate in liquidity mining here](../guides/participating-in-liquidity-mining.md).&#x20;
 
 #### **How can I claim my GFI?**
 
@@ -20,7 +20,7 @@ The frequency with which more of your GFI becomes claimable is the "unlock inter
 
 #### **I was a Liquidity Provider in the Senior Pool before Token Launch. Will I get tokens?**
 
-Yes, if you are a non-U.S. person, and if you kept your capital in the Senior Pool until December 14, 2021 at UTC 10:00:17 PM, you will get GFI. Existing Liquidity Providers were allocated GFI distributions during the token launch —  see how they were allocated on the [Tokenomics page](./). In addition, existing Liquidity Providers can receive more tokens through [liquidity mining](../protocol-mechanics/senior-pool-liquidity-mining.md) by staking their FIDU. Learn [how to participate in liquidity mining here](../guides/participating-in-liquidity-mining.md).&#x20;
+Yes, if you are a non-U.S. person, and if you kept your capital in the Senior Pool until December 14, 2021 at UTC 10:00:17 PM, you will get GFI. Existing Liquidity Providers were allocated GFI distributions during the token launch —  see how they were allocated on the [Tokenomics page](./). In addition, existing Liquidity Providers can receive more tokens through [liquidity mining](../protocol-mechanics/investor-incentives/senior-pool-liquidity-mining.md) by staking their FIDU. Learn [how to participate in liquidity mining here](../guides/participating-in-liquidity-mining.md).&#x20;
 
 #### **I withdrew capital from the Senior Pool before the January 11, 2020 Token Launch. Will I get tokens?**
 
@@ -41,7 +41,7 @@ To avoid confusion, there are two unrelated types of "staking" on Goldfinch:
 
 #### **Can I use GFI for anything while it's unlocking?**
 
-No — GFI can only be used once it is in your wallet. Sometimes, you may have GFI that is claimable, but not in your wallet. To transfer unlocked GFI to your wallet,  `Claim` for the GFI on the `GFI` tab in the [dapp](https://app.goldfinch.finance).&#x20;
+No — GFI can only be used once it is in your wallet. Sometimes, you may have GFI that is claimable, but not in your wallet. To transfer unlocked GFI to your wallet,  `Claim` for the GFI on the `GFI` tab in the [dapp](https://app.goldfinch.finance/).&#x20;
 
 #### **Can I transfer my GFI tokens to a Ledger?**
 

@@ -2,7 +2,7 @@
 
 ### Senior Pool Liquidity Mining
 
-Currently, liquidity mining is only live for the Senior Pool. Learn more about how [Senior Pool liquidity Mining works here](../protocol-mechanics/senior-pool-liquidity-mining.md).
+Currently, liquidity mining is only live for the Senior Pool. Learn more about how [Senior Pool liquidity Mining works here](../protocol-mechanics/investor-incentives/senior-pool-liquidity-mining.md).
 
 #### If you're participating in the Senior Pool for the first time:
 

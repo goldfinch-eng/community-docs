@@ -2,7 +2,7 @@
 
 It is necessary to verify your identity in order to participate in Governance votes or supply capital to the Senior Pool and Borrower Pools. U.S.-based individuals must also verify their accredited investor status in order to supply capital.
 
-The identity verification process checks that you are a real individual, and then allows you to mint your UID. The process uses [Persona](https://withpersona.com) and [Parallel Markets](https://parallelmarkets.com) to perform the verification, which takes privacy and security [very seriously](https://support.withpersona.com/hc/en-us/articles/360057452513-Security-privacy-and-compliance-overview).
+The identity verification process checks that you are a real individual, and then allows you to mint your UID. The process uses [Persona](https://withpersona.com/) and [Parallel Markets](https://parallelmarkets.com/) to perform the verification, which takes privacy and security [very seriously](https://support.withpersona.com/hc/en-us/articles/360057452513-Security-privacy-and-compliance-overview).
 
 ### Step 1: Verify your address&#x20;
 

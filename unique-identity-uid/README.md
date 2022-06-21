@@ -22,7 +22,7 @@ Many companies today don’t interact with DeFi due to KYC/KYB and counterparty 
 
 UID is completely interoperable with the rest of DeFi. It is a standard ERC-1155 contract, so any protocol can get the benefits without having to build their own KYC flow or handle any data themselves. If you’re a builder, go to the [Developer docs](https://docs.goldfinch.finance/goldfinch/unique-identity-uid/for-developers) to learn more.
 
-It’s also important to emphasize that UID seriously factors in privacy. No personally identifiable data is stored on-chain. Goldfinch has partnered with [Persona](https://withpersona.com) to manage the KYC process and data, and with [Parallel Markets](https://parallelmarkets.com) to manage the KYB and accreditation processes and data. They both offer [industry-leading privacy and security practices](https://withpersona.com/security) that are trusted by many of the largest technology companies. Learn more [here](https://medium.com/goldfinch-fi/introducing-unique-identity-uid-the-first-nft-for-identity-830a89207509).
+It’s also important to emphasize that UID seriously factors in privacy. No personally identifiable data is stored on-chain. Goldfinch has partnered with [Persona](https://withpersona.com/) to manage the KYC process and data, and with [Parallel Markets](https://parallelmarkets.com/) to manage the KYB and accreditation processes and data. They both offer [industry-leading privacy and security practices](https://withpersona.com/security) that are trusted by many of the largest technology companies. Learn more [here](https://medium.com/goldfinch-fi/introducing-unique-identity-uid-the-first-nft-for-identity-830a89207509).
 
 ### How it works&#x20;
 
@@ -48,4 +48,4 @@ Then, when the user participates in protocols like Goldfinch, these protocols ca
 
 ### About the artist&#x20;
 
-The amazing illustration for UID was created by [Marcelo Meijome](http://marcelo-meijome.com). You can see some of his other [NFT works on Foundation](https://foundation.app/@marcelomeijome).
+The amazing illustration for UID was created by [Marcelo Meijome](http://marcelo-meijome.com/). You can see some of his other [NFT works on Foundation](https://foundation.app/@marcelomeijome).

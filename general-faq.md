@@ -34,7 +34,7 @@ Yes, Goldfinch has a [Bug Bounty program](https://immunefi.com/bounty/goldfinch/
 
 #### **Which wallets does the dapp support?**&#x20;
 
-The dapp supports [WalletConnect](https://walletconnect.com), [Metamask](https://metamask.io), and [Ledger](https://www.ledger.com/ledger-live/download). Ledger performs optimally through [Firefox](https://www.mozilla.org/en-US/firefox/new/). [Trezor](https://trezor.io) is currently not supported.
+The dapp supports [WalletConnect](https://walletconnect.com/), [Metamask](https://metamask.io/), and [Ledger](https://www.ledger.com/ledger-live/download). Ledger performs optimally through [Firefox](https://www.mozilla.org/en-US/firefox/new/). [Trezor](https://trezor.io/) is currently not supported.
 
 #### What is the currency of the loans?
 
@@ -46,7 +46,7 @@ Goldfinch does not ask Borrowers to deposit any on-chain collateral to take out 
 
 #### **Has the Goldfinch protocol been audited?**
 
-Yes, by [Certik](https://www.certik.com) and [Trail of Bits](https://www.trailofbits.com). The initial V2 of the protocol (the design outlined in the white paper) has been audited by Certik (here is the [Github repo](https://github.com/goldfinch-eng/goldfinch-contracts)). Another audit was done by Trail of Bits (https://www.trailofbits.com/) in November 2021 (here is the [Github repo](https://github.com/goldfinch-eng/goldfinch-contracts)).
+Yes, by [Certik](https://www.certik.com/) and [Trail of Bits](https://www.trailofbits.com/). The initial V2 of the protocol (the design outlined in the white paper) has been audited by Certik (here is the [Github repo](https://github.com/goldfinch-eng/goldfinch-contracts)). Another audit was done by Trail of Bits (https://www.trailofbits.com/) in November 2021 (here is the [Github repo](https://github.com/goldfinch-eng/goldfinch-contracts)).
 
 #### **Who are the current Borrowers using the protocol?**
 
@@ -61,10 +61,10 @@ Currently, the community has not proposed hosting another Flight Academy. Howeve
 #### **Backer Incentives vs. LP Incentives**
 
 There have been a lot of questions about the fact that retroactive distributions happened on launch day (Jan 11th) for LPs and not for Backers. Per the white paper, and because of this community-approved [governance proposal](https://gov.goldfinch.finance/t/backer-participation-in-staking-rewards/682), Backers will now receive distributions for participating in Borrower Pools. The smart contracts for Backer distributions have already been audited and deployed, and are already on the community Github repo [here](https://github.com/goldfinch-eng/mono/blob/main/packages/protocol/contracts/rewards/BackerRewards.sol). \
-Read more about Backer Incentives [here](protocol-mechanics/backer-incentives.md)\
+Read more about Backer Incentives [here](protocol-mechanics/investor-incentives/backer-incentives.md)\
 
 
-You can submit or discuss a proposal for Backer Rewards at [gov.goldfinch.finance](https://gov.goldfinch.finance).
+You can submit or discuss a proposal for Backer Rewards at [gov.goldfinch.finance](https://gov.goldfinch.finance/).
 
 **Update**: There is a proposal for a retroactive Backer airdrop as well as Backer Rewards [here](https://gov.goldfinch.finance/t/retroactive-backer-distribution-proposal-3-with-data/252).
 

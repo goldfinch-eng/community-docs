@@ -18,4 +18,4 @@ It is possible that when a Liquidity Provider wants to withdraw, the Senior Pool
 
 ## Summary of Liquidity Provider Incentives
 
-Liquidity providers are incentivized to supply to the Senior Pool in order to earn passive yield.
+Liquidity providers are incentivized to supply to the Senior Pool in order to earn automatically allocated yield.

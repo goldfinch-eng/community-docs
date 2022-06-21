@@ -8,6 +8,8 @@ Backers evaluate Borrowers and supply first-loss capital on their Borrower Pools
 
 Backers look at Borrower Pools as investment opportunities. They evaluate the information Borrowers provide and decide if they want to supply capital to the junior tranche of a Borrower Pool.
 
+To track the different amounts that different participants supply, Backers receive an NFT when they supply capital. The NFT tracks the amount that was supplied and how much of it has been redeemed. At any time, a Backer can use their NFT to redeem their specific portion of the available repayments in the Pool.
+
 The Senior Pool provides additional senior tranche capital to the Borrower Pool according to the Leverage Model. To account for the lower risk of the senior tranche, 20% of the senior tranche’s nominal interest is reallocated to the junior tranche. In addition, the protocol retains 10% of all interest payments as reserves, which are managed by the decentralized Governance.
 
 As a result, the Senior Pool earns an effective interest rate equal to 70% of the nominal interest rate. Or, in terms of the nominal interest rate, $$i_{n}$$ , protocol reserve allocation, $$p$$, and junior reallocation percent, $$j$$:

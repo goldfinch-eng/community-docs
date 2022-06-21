@@ -14,8 +14,6 @@ UID should be considered alpha software. It is used for the Goldfinch protocol, 
 
 To integrate UID into your smart contracts, simply check the balance of your user's address to see if they possess the UID token. In Solidity, it would look like this:
 
-
-
 ```
 # This is using OpenZeppelin's ERC1155 preset contracts:
 # https://docs.openzeppelin.com/contracts/3.x/api/token/erc1155#IERC1155
@@ -68,13 +66,13 @@ UID is very simple. It works by having a trusted signer (Goldfinch in this case)
 
 **So the user flow looks like this...**
 
-1. User completes KYC flow (on [app.goldfinch.finance/verify](https://app.goldfinch.finance/verify), via our partner [Persona](https://withpersona.com)).
+1. User completes KYC flow (on [app.goldfinch.finance/verify](https://app.goldfinch.finance/verify), via our partner [Persona](https://withpersona.com/)).
 2. Submit completed KYC to the Trusted Signer, which returns a signed message to the user.
 3. User mints their UID by presenting the signed message to the UID contract.
 
 ### Security and Privacy
 
-All personal data is processed and handled through [Persona](https://withpersona.com). Persona has industry leading [security and privacy practices](https://withpersona.com/security). **No personal information is stored on-chain.**
+All personal data is processed and handled through [Persona](https://withpersona.com/). Persona has industry leading [security and privacy practices](https://withpersona.com/security). **No personal information is stored on-chain.**
 
 ### Need to get in touch?
 

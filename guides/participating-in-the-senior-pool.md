@@ -33,7 +33,7 @@ The APY described is therefore a dynamic number that will change both as Liquidi
 4. Click `Supply` and enter the amount of USDC you would like to supply to the Senior Pool.
 5. Ensure you check off `I agree to the` [`Senior Pool Agreement`.](https://murmuration.goldfinch.finance/senior-pool-agreement-non-us)
 6. If you check off `I want to stake my supply to earn GFI rewards (some additional APY)`, you will receive additional GFI distributions.&#x20;
-   * Please note: Staking does not 'lock' your USDC; you can always withdraw at any time. Staking allows you to receive GFI distributions, which unlock over the first 12 months after staking. For more details, see [Senior Pool Liquidity Mining](../protocol-mechanics/senior-pool-liquidity-mining.md).
+   * Please note: Staking does not 'lock' your USDC; you can always withdraw at any time. Staking allows you to receive GFI distributions, which unlock over the first 12 months after staking. For more details, see [Senior Pool Liquidity Mining](../protocol-mechanics/investor-incentives/senior-pool-liquidity-mining.md).
    * You can see your GFI for staking FIDU in the `GFI` tab.
 7. Click `Submit`.
 8. Accept the transaction on your wallet.

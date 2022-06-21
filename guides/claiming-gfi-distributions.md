@@ -40,6 +40,6 @@ The box on top of the `GFI` tab shows a summary of your GFI distributions.
 * **Transaction details:** A description of how or why you received the distribution.
 * **Unlock schedule:** A description of when the GFI will become claimable.
 * **Unlock status:** The percentage of the GFI that has already unlocked.
-* **Current earn rate:** This only applies to [Liquidity Mining](../protocol-mechanics/senior-pool-liquidity-mining.md) distributions. This is an estimate of how much GFI you will receive per week. This number changes consistently, depending on the size and utilization of the Senior Pool. See the [Liquidity Mining page](../protocol-mechanics/senior-pool-liquidity-mining.md) to learn more.
+* **Current earn rate:** This only applies to [Liquidity Mining](../protocol-mechanics/investor-incentives/senior-pool-liquidity-mining.md) distributions. This is an estimate of how much GFI you will receive per week. This number changes consistently, depending on the size and utilization of the Senior Pool. See the [Liquidity Mining page](../protocol-mechanics/investor-incentives/senior-pool-liquidity-mining.md) to learn more.
 * **Claim status:** The amount of the GFI you have already claimed.&#x20;
 

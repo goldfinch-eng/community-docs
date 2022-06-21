@@ -19,7 +19,7 @@ The GFI distributions rate is calculated using several parameters, all set by Go
 
 The reward rate can be thought of as a piecewise linear function that looks something like this:
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../../.gitbook/assets/image (1).png>)
 
 * Inside the target range, the distribution rate linearly decreases from "Maximum rate" to "Minimum rate"
 * Below the target range, the distribution rate is constant at "Maximum rate"

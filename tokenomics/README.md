@@ -18,7 +18,7 @@ The initial allocation of the total supply of GFI are as follows:
 
 4.0% — Retroactive Liquidity Provider Distribution: These tokens are allocated to all 5,157 liquidity providers as of a Dec 14 snapshot, excluding the Early Liquidity Provider program above. These distributions are only to non-U.S. persons and unlock over a range of immediate to 12 months, depending on the contribution amount and earliest contribution date.
 
-8.0% — Senior Pool Liquidity Mining: These tokens are allocated to ongoing liquidity mining, beginning immediately. Senior Pool liquidity mining is described in the [Liquidity Mining](../protocol-mechanics/senior-pool-liquidity-mining.md) section.
+8.0% — Senior Pool Liquidity Mining: These tokens are allocated to ongoing liquidity mining, beginning immediately. Senior Pool liquidity mining is described in the [Liquidity Mining](../protocol-mechanics/investor-incentives/senior-pool-liquidity-mining.md) section.
 
 ### Backers (8.0%)&#x20;
 

@@ -2,21 +2,20 @@
 
 The total APY (Annual Percentage Yield) earned by Backers of a Borrower Pool is the sum of three parts:&#x20;
 
-* The **base interest USDC APY** of a Pool’s Junior Tranche is the base-level incentive a Backer can receive from participating in the protocol. This base USDC APY originates from the Borrower’s repayments and is a core feature of the Goldfinch protocol.&#x20;
-* **Backer Rewards** are the APY from GFI earned uniquely by Backers, from the Pool’s interest repayments.&#x20;
-* **Backer Staking Rewards** are the APY from GFI earned by Backers equivalent to the APY from GFI earned by liquidity providers who supply to the Senior Pool.
+* The base interest **USDC APY** of a Pool’s Junior Tranche is the base-level incentive a Backer can receive from participating in the protocol. This base USDC APY originates from the Borrower’s repayments and is a core feature of the Goldfinch protocol.&#x20;
+* **Backer Bonus** is the APY from GFI earned uniquely by Backers, which is made up of the combined BackerRewards contract functions of **Backer Rewards**, from the Pool’s interest repayments, and **Backer Staking Rewards**, the APY from GFI earned by Backers equivalent to the APY from GFI earned by Liquidity Providers who supply to the Senior Pool.&#x20;
 
 In addition to the total APY earned by backers:&#x20;
 
-* **Early Backer Rewards** were an additional GFI reward provided to all Backers who contributed to a Pool prior to the development of the Backer Rewards and Backer Staking Rewards mechanisms.
+* **Early Backer Airdrop** — A GFI reward provided to Backers who contributed to a Pool before the implementation of the community governance proposals for Backer Rewards and Backer Staking Rewards mechanisms.
 
 Backer Rewards and Backer Staking Rewards are functions of the BackerRewards contract. This was passed by community governance to ensure that a Backer’s incentives are always higher than those of a Senior Pool participant’s, in order to preserve the protocol’s consistent risk/reward tradeoff, with Backers, who take on the most risk, rewarded the most highly.
 
-Early Backer Rewards were passed by [community governance](https://gov.goldfinch.finance/t/retroactive-backer-distribution-proposal-4-same-as-3-with-ammendment/505) to retroactively reward Backers of pools that were funded prior to the development of the Backer Rewards and Backer Staking Rewards mechanisms.
+The Early Backer Airdrop was passed by [community governance](https://gov.goldfinch.finance/t/retroactive-backer-distribution-proposal-4-same-as-3-with-ammendment/505) to retroactively reward Backers of pools that were funded prior to the development of the Backer Rewards and Backer Staking Rewards mechanisms.
 
 Staking on Backers, detailed below, is an element of the [Goldfinch Whitepaper](https://goldfinch.finance/goldfinch\_whitepaper.pdf) and as of April 2022 have not yet been implemented as a live feature on the protocol.
 
-### Early Backer Rewards&#x20;
+### Early Backer Airdrop
 
 Backers of pools that were funded before the Backer Rewards and Backer Staking Rewards mechanisms were developed received a one-time airdrop, to reward their early support of the protocol. The parameters of the airdrop were defined in the [proposal](https://gov.goldfinch.finance/t/retroactive-backer-distribution-proposal-4-same-as-3-with-ammendment/505) passed by community governance.
 
