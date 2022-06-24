@@ -26,9 +26,9 @@ The Goldfinch protocol has three key roles: Borrowers, Investors, and Auditors. 
 
 ## **How Goldfinch works**
 
-Goldfinch extends credit lines (via Borrower Pools) to lending businesses (Borrowers). These businesses use their credit lines to draw down stablecoins, specifically USDC, from the Pool.&#x20;
+Borrowers (currently off-chain lending businesses) propose deal terms for credit lines (Borrower Pools) to the protocol. Goldfinch's community of Investors can then supply capital to these credit lines (Pools), either directly to individual Pools (as Backers) or indirectly by automatically allocating capital across the protocol (Liquidity Providers via the Senior Pool).
 
-Borrowers then exchange the USDC for fiat currency and deploy it on the ground to end-borrowers in their local markets.&#x20;
+These Borrower businesses use their credit lines to draw down stablecoins, specifically USDC, from their Pool. Borrowers then exchange the USDC for fiat currency and deploy it on the ground to end-borrowers in their local markets.&#x20;
 
 In this way, the protocol provides the utility of crypto—specifically, its global access to capital—while leaving the actual end-borrower loan origination and servicing to the businesses best equipped to handle that in their own communities.
 
