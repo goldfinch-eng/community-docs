@@ -28,7 +28,15 @@ The Goldfinch protocol has three key roles: Borrowers, Investors, and Auditors. 
 
 Goldfinch extends credit lines (via Borrower Pools) to lending businesses (Borrowers). These businesses use their credit lines to draw down stablecoins, specifically USDC, from the Pool.&#x20;
 
-Borrowers then exchange the USDC for fiat currency and deploy it on the ground to end-borrowers in their local markets. In this way, the protocol provides the utility of crypto—specifically, its global access to capital—while leaving the actual end-borrower loan origination and servicing to the businesses best equipped to handle that in their own communities.
+Borrowers then exchange the USDC for fiat currency and deploy it on the ground to end-borrowers in their local markets.&#x20;
+
+In this way, the protocol provides the utility of crypto—specifically, its global access to capital—while leaving the actual end-borrower loan origination and servicing to the businesses best equipped to handle that in their own communities.
+
+### Trust through consensus&#x20;
+
+In order to determine how to allocate capital from the Senior Pool, the protocol uses a principle of "trust through consensus." This means that while the protocol doesn't trust any individual Backer or Auditor, it does trust the collective actions of many of them.&#x20;
+
+At a high level: when more Backers supply to a given Borrower Pool, the Senior Pool [increases the ratio with which it adds leverage](https://docs.goldfinch.finance/goldfinch/protocol-mechanics/leveragemodel). Because this approach relies on counting individual Backers, the protocol must ensure they are in fact represented by different people. Therefore, all Backers, Borrowers, and Auditors require a "unique entity check" to participate (see below).
 
 ## **Junior and senior tranches**
 
