@@ -30,6 +30,6 @@ Goldfinch is currently expanding financial access for thousands of individuals a
 
 
 
-Read on to the Goldfinch Overview for a more detailed explanation of the protocol and how it works.
+Read on to the [Goldfinch Overview](goldfinch-overview.md) for a more detailed explanation of the protocol and how it works. You can learn more about Goldfinch’s mission and vision in [The Goldfinch Manifesto](https://medium.com/goldfinch-fi/the-goldfinch-manifesto-36410494e1a).
 
 _For a deeper technical dive into Goldfinch’s code, smart contract configuration, security, and other technical features, view the_ [_Goldfinch Developer Documentation site._](https://dev.goldfinch.finance/)__
