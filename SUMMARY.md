@@ -61,6 +61,7 @@
 * [Governance Portal](https://gov.goldfinch.finance)
 * [Developer Docs](https://dev.goldfinch.finance/)
 * [Protocol Data Dashboard](https://dune.xyz/goldfinch/goldfinch)
+* [Borrower Impact Data](https://dune.com/goldfinch/goldfinch-borrower-impact-estimates)
 * [November 2021 Audit](https://github.com/goldfinch-eng/goldfinch-contracts)
 * [Immunefi Bug Bounty](https://immunefi.com/bounty/goldfinch/)
 * [Github](https://github.com/goldfinch-eng)
