@@ -10,7 +10,7 @@ _For a deeper technical dive into Goldfinch’s code, smart contract configurati
 
 ## **Goldfinch is a decentralized credit protocol that allows for crypto borrowing without crypto collateral.**
 
-A core limitation of current decentralized crypto lending protocols is that the require borrowers to overcollateralize their loans with crypto assets, which prevents the vast majority of borrowers in the world from participating.
+A core limitation of current decentralized crypto lending protocols is that they require borrowers to overcollateralize their loans with crypto assets, which prevents the vast majority of borrowers in the world from participating.
 
 By incorporating the principle of “trust through consensus,” the Goldfinch protocol creates a way for borrowers to show creditworthiness based on the collective assessment of other participants rather than based on their crypto assets.
 

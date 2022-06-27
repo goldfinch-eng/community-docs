@@ -1,0 +1,3 @@
+# Investor KYC / AML Requirements
+
+Investors in the Goldfinch ecosystem are required to mint a [Unique Identity NFT (UID)](https://medium.com/goldfinch-fi/introducing-unique-identity-uid-the-first-nft-for-identity-830a89207509) in order to gain access to Goldfinch pools. The UID represents that an investor has passed through various OFAC, AML, Sanctions checks which are conducted by [Persona](https://withpersona.com/). You can learn more about the need for a [Unique Entity Check on Goldfinch here](../../protocol-mechanics/uniqueentitycheck.md), and about the [Unique Identity NFT process here](../../unique-identity-uid/).

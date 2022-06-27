@@ -1,12 +1,12 @@
 # Tokenomics
 
-## Total Token Supply&#x20;
+## Total token supply&#x20;
 
 The initial token supply is capped at **114,285,714 GFI tokens**.&#x20;
 
 There is currently no inflation, but it is expected that it will be beneficial for the protocol to incorporate modest inflation after 3 years in order to reward future active participants. Ultimately, this will be up to the community to discuss and decide.
 
-## Token Allocations&#x20;
+## Token allocations&#x20;
 
 The initial allocation of the total supply of GFI are as follows:
 

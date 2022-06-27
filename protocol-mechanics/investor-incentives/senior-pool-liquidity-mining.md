@@ -1,6 +1,6 @@
 # Senior Pool Liquidity Mining
 
-Participants can earn GFI by staking the FIDU they receive from supplying to the Senior Pool.
+Liquidity Providers can earn GFI by staking the FIDU they receive from supplying to the Senior Pool.
 
 GFI tokens are granted at a variable distribution rate, which is based on a target pool balance set by Governance. More tokens are distributed when the pool is under the target, and less are distributed when it is over the target. The farther under the target the pool balance is, the more GFI tokens are distributed. This helps incentivize a healthy utilization and APY for the pool, relative to loans outstanding.
 
@@ -8,14 +8,14 @@ Also, to encourage long-term participation, the GFI distributions received from 
 
 
 
-## Distribution Rate
+## Distribution rate
 
 The GFI distributions rate is calculated using several parameters, all set by Governance:
 
-* **Target balance**. This is the ideal total balance of the Senior Pool. The community can decide on this balance based on expected future capital needs. It should be high enough to attract the amount of capital the protocol will need, but not too high that the protocol unnecessarily distributes GFI to unused capital.
-* **Minimum rate:** This is the lowest possible rate of GFI distributed per second.
-* **Maximum rate:** The is the highest possible rate of GFI distributed per second.
-* **Target range:** This is the range around the "Target balance" along which the min and max distribution rate are applied. It is represented as two percentages (e.g. min: 50% of the target balance, max: 200% of the target balance).
+* **Target balance:** The ideal total balance of the Senior Pool. The community can decide this balance based on expected future capital needs. It should be high enough to attract the amount of capital the protocol will need, but not too high that the protocol unnecessarily distributes GFI to unused capital.
+* **Minimum rate:** The lowest possible rate of GFI distributed per second.
+* **Maximum rate:** The highest possible rate of GFI distributed per second.
+* **Target range:** T\he range around the "Target balance" along which the min and max distribution rate are applied. It is represented as two percentages (e.g. min: 50% of the target balance, max: 200% of the target balance).
 
 The reward rate can be thought of as a piecewise linear function that looks something like this:
 
@@ -27,7 +27,7 @@ The reward rate can be thought of as a piecewise linear function that looks some
 
 In other words, when the pool balance is below its target, the distribution rate will be higher, incentivizing more people to supply capital to the pool. When the pool balance is above its target, the distribution rate will be lower, incentivizing withdrawals.
 
-### Current Parameters
+### Current parameters
 
 As of January 11 2021, the distribution rate parameters have been set as follows:
 
@@ -40,7 +40,7 @@ Governance can always decide to change these parameters.
 
 
 
-## Unlock Schedule
+## Unlock schedule
 
 To encourage long-term participation, the GFI distributions received from liquidity mining unlock linearly over the first 12 months of staking. This means that while you can withdraw whenever you like, if you withdraw before 12 months, you will forfeit some of your GFI distributions. For example, after 3 months you'd forfeit 75%, after 6 months you'd forfeit 50%, and so on. After 12 months, you will continue to receive distributions, and will never forfeit any GFI. See below for more details.
 

@@ -8,13 +8,13 @@ There are several ways to get involved in the Goldfinch protocol. The best ways 
 * Being a Liquidity Provider in the Senior Pool (see[ Liquidity Providers ](protocol-mechanics/liquidityproviders.md)to learn more).
 * Being a Backer to Borrower Pools (see [Borrower Pools](broken-reference) to learn more).
 
-#### **Do I need to be an accredited investor to participate in the Senior Pool?**
+#### **Do I need to be an Accredited Investor to participate in the Senior Pool?**
 
-No — anyone can participate in the [Senior Pool](guides/participating-in-the-senior-pool.md). To learn how to participate, click [here](guides/participating-in-the-senior-pool.md).
+US residents must be Accredited Investors to supply capital to the Senior Pool. Anyone outside of the US within regions supported by UID can participate in the [Senior Pool](guides/participating-in-the-senior-pool.md). To learn how to participate, click [here](guides/participating-in-the-senior-pool.md).
 
 #### **Where can I find the updates of the Goldfinch Protocol?**
 
-You can find all the updates in the the [Goldfinch Discord](https://discord.com/invite/HVeaca3fN8) server, [Telegram](https://t.me/goldfinch\_finance), [Twitter](https://twitter.com/goldfinch\_fi), and sometimes on [Medium.](https://medium.com/goldfinch-fi)
+You can sign up for weekly Goldfinch Updates on the [Goldfinch Substack](https://goldfinch.substack.com/), or follow along live on [Twitter](https://twitter.com/goldfinch\_fi) and [Medium](https://medium.com/goldfinch-fi). You can connect with the community to stay connected with what's going on in the [Goldfinch Discord](https://discord.com/invite/HVeaca3fN8) server and [Telegram](https://t.me/goldfinch\_finance). To receive live updates when new Borrower Pools are launching, sign up for [Backer Updates](https://finance.us6.list-manage.com/subscribe?u=474a4e1e3558f9c3cf4d6475d\&id=3424bed28d).&#x20;
 
 #### **I don't speak English. Will Goldfinch dapp be available in my language?**
 
@@ -42,7 +42,7 @@ All loans are in USDC. You can learn more about USDC [here](https://www.circle.c
 
 #### Does Goldfinch really take no collateral in its deals?
 
-Goldfinch does not ask Borrowers to deposit any on-chain collateral to take out a loan. Instead, when structuring a loan, Borrowers are required to pledge real-world assets as collateral.&#x20;
+Goldfinch does not ask Borrowers to deposit any on-chain collateral to take out a loan. Instead, when structuring a loan, Borrowers pledge real-world assets as collateral.&#x20;
 
 #### **Has the Goldfinch protocol been audited?**
 
@@ -52,7 +52,7 @@ Yes, by [Certik](https://www.certik.com/) and [Trail of Bits](https://www.trailo
 
 The list of past borrowers is available publicly [here](https://app.goldfinch.finance/earn) under `Borrower Pools`. The focus right now is on credit funds and later stage borrowers who are series B and beyond.
 
-#### I heard about "Flight Academy", what was that?
+#### I heard about "Flight Academy," what was that?
 
 Flight Academy was a program that empowered the Backer community with tools and basic vocabulary needed to evaluate Debt Capital Markets deals. The program aimed to establish community values and set community norms. The academy ran from September 20, 2021, to October 25, 2021. The academy tutorials are [available](https://www.youtube.com/watch?v=4hGungwsEQk\&list=PLJsUPOCzOm\_zJ08Mgc0vLs-1pymgcO2\_-) for free. Participants were rewarded with GFI (Goldfinch's token) based on a specific criteria, as explained in the final announcements [here](https://discord.com/channels/793925570739044362/806257997680345188/921477436024168548), and [here](https://discord.com/channels/793925570739044362/806257997680345188/922571454917247036).&#x20;
 
@@ -61,13 +61,30 @@ Currently, the community has not proposed hosting another Flight Academy. Howeve
 #### **Backer Incentives vs. LP Incentives**
 
 There have been a lot of questions about the fact that retroactive distributions happened on launch day (Jan 11th) for LPs and not for Backers. Per the white paper, and because of this community-approved [governance proposal](https://gov.goldfinch.finance/t/backer-participation-in-staking-rewards/682), Backers will now receive distributions for participating in Borrower Pools. The smart contracts for Backer distributions have already been audited and deployed, and are already on the community Github repo [here](https://github.com/goldfinch-eng/mono/blob/main/packages/protocol/contracts/rewards/BackerRewards.sol). \
-Read more about Backer Incentives [here](protocol-mechanics/investor-incentives/backer-incentives.md)\
-
-
-You can submit or discuss a proposal for Backer Rewards at [gov.goldfinch.finance](https://gov.goldfinch.finance/).
-
-**Update**: There is a proposal for a retroactive Backer airdrop as well as Backer Rewards [here](https://gov.goldfinch.finance/t/retroactive-backer-distribution-proposal-3-with-data/252).
+Read more about [Backer Incentives here](protocol-mechanics/investor-incentives/backer-incentives.md).
 
 #### If a Borrower defaults, is the money paid back on-chain or off-chain?
 
 In practice, there are security agents with each Borrower that are instructed to liquidate the pledged collateral, convert into USDC, and make payments on chain into the relevant Borrower pool. The Senior Pool and Backers are then able to claim their portion of the funds from the Borrower pool.
+
+#### What sort of deals can the Goldfinch protocol be used for?
+
+Almost any kind of credit-related investment, into a real-world venture providing some sort of productive service. The Goldfinch protocol is a marketplace, where capital is aggregated for various use cases as it relates to lending. The transaction sponsor (e.g. borrower, or lead backer) owns presenting an opportunity to the community (e.g. principal investment into a corporate, credit fund co-investment, credit fund sub-participation etc...), with the community, ultimately deciding whether or not to fund the opportunity.
+
+#### What type of structured facility can the Goldfinch protocol provide **Borrowers**?
+
+The protocol provides a uni-tranche facility, whereby a single credit line is made available, at a single coupon. There is no ability to only raise junior, or senior capital through the Goldfinch protocol.
+
+#### How can I assess whether the Smart Contract which governs how capital moves works?
+
+The smart contract code is freely accessible and can be found in Github. The Goldfinch smart contract has additionally been audited by 3rd party providers for security flaws by teams like Trail of Bits. You can learn more about the smart contract and Goldfinch's code in the [Developer Documentation](https://dev.goldfinch.finance/).&#x20;
+
+#### What is in the Important Links section of the documentation?
+
+* [Governance Portal](https://gov.goldfinch.finance/): The site for Goldfinch's Governance proposals and Discussions. You can learn more about the Governance process in the [Governance section](governance.md) of the documentation.
+* [Developer Documentation](https://dev.goldfinch.finance/): A documentation site for developers and those auditing Goldfinch's code, for a deeper technical dive into Goldfinch’s code, smart contract configuration, security, and other technical features.&#x20;
+* [Protocol Data Dash](https://dune.com/goldfinch/goldfinch)board: A Dune dashboard providing live insights into the Goldfinch protocol, including 30 day protocol revenue, repayment metrics, defaults, and more.&#x20;
+* [November 2021 Audit](https://github.com/goldfinch-eng/goldfinch-contracts): A link to the second protocol external protocol audit, completed by Trail of Bits.&#x20;
+* [Immunefi Bug Bounty](https://immunefi.com/bounty/goldfinch/): The bounty for developer bug detection, focused on preventing code impacts such as loss of user funds and hosted by Immunefi.&#x20;
+* [Github](https://github.com/goldfinch-eng): The open-source repository for all of Goldfinch's code.&#x20;
+

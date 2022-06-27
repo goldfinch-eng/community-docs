@@ -1,6 +1,6 @@
 # Governance
 
-Governance is managed by a community DAO and has the ability to perform maintenance functions and parameter adjustments via decentralized governance votes, including:
+Governance is managed by a community DAO and has the ability to perform maintenance functions and parameter adjustments to the protocol via decentralized voting, including:
 
 * Upgrading contracts
 * Changing protocol configurations and parameters

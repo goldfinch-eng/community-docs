@@ -1,22 +1,26 @@
-# Purchasing cover with Nexus Mutual
+# Purchasing coverage with Nexus Mutual
 
 ### Overview
 
-Buying cover for your productive assets is the best way to hedge against smart contract risk and protect your funds when you are participating in the Goldfinch Protocol. Buying coverage for the Goldfinch protocol via Nexus Mutual will provide insurance against your supply of USDC in the protocol's Senior Pool or Borrower Pools in the event of a smart contract bug where funds are lost. It's worth noting that coverage does not apply to the credit risk of Borrowers not paying back.
+Buying coverage for your productive assets is the best way to hedge against smart contract risk and protect your funds when you are participating in the Goldfinch Protocol.&#x20;
+
+Buying coverage for the Goldfinch protocol via industry-leading [Nexus Mutual](https://nexusmutual.io/) will provide insurance against your supply of USDC to the protocol's Senior Pool or Borrower Pools in the unlikely event of a smart contract bug resulting in lost funds.&#x20;
+
+It's worth noting that coverage only covers smart contract risk, and does not apply to the credit risk of Borrowers not paying back their loans.&#x20;
 
 _**If you need any support purchasing cover get in touch with the Nexus Mutual team via their their**_ [_**Discord**_](https://discord.gg/xxFaAEn) _**server, on**_ [_**Twitter**_](https://twitter.com/NexusMutual) _**or on**_ [_**Telegram**_](https://t.me/nexusmutual)_**.**_
 
-### **What Factors to Think About When Buying Cover**
+### **Factors to Consider when Buying Coverage**
 
-Once you know what cover product you want, you should consider the following factors:
+Once you know what coverage product you want, you should consider the following factors:
 
 * **How long do you need to be covered?** The minimum duration of a cover policy is 30 days and the maximum duration is 365 days.
 * **What payout denomination works best for you?** When you buy your cover policy, you have to select the currency you want to receive a payout in should a loss event occur. You can select ETH or DAI. Most users select ETH as they payout denomination for more volatile assets and DAI as the payout denomination for more stable assets.
 * **Which currency do you want to pay for your policy with?** You can pay with ETH, DAI or NXM when you buy your cover policy. Consider which one you want to use for payment.
 
-### **How to Buy Cover**
+### **How to Buy Coverage**
 
-Now that you are ready to buy cover, you can head to [https://app.nexusmutual.io/home](https://app.nexusmutual.io/home).
+Now that you are ready to buy coverage, head to [https://app.nexusmutual.io/home](https://app.nexusmutual.io/home).
 
 On the Home page, you will see the **Welcome** menu below, which displays your current holdings, covers, claims, and membership status. [The view on the Nexus Mutual Home page.](https://lh5.googleusercontent.com/31xYI-xpHZ-n1NJO94Krc8Gqn8aJ7p4aGVWY11-iErKUsVTPaxFqe7q4FBtNBV\_eI1oU0Rrkm8MLUNzY1iRrqpKKJPBVtP94UjangjO88DtFIeUBYMxPStEfu4Mf2Z\_dBn5JpAxT=s0)
 

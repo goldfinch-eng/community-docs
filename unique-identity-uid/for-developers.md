@@ -7,7 +7,7 @@ description: >-
 # For Developers
 
 {% hint style="warning" %}
-UID should be considered alpha software. It is used for the Goldfinch protocol, and we would love to see other protocols leverage the work we've done, but we cannot guarantee support or maintenance at this time. Use at your own risk. If you have questions or feedback, please contact us at uid@goldfinch.finance. We'd love to hear from you!
+UID should be considered alpha software. It is used by the Goldfinch network, and we would love to see other protocols utilize the tool, but Warbler Labs cannot guarantee support or maintenance at this time. Use UID at your own risk. If you have questions or feedback, please contact us at uid@goldfinch.finance. We'd love to hear from you!
 {% endhint %}
 
 ### Integrating UID in your smart contracts
@@ -56,13 +56,9 @@ async function hasUID(userAddress) {
 
 If your users don't already have a UID, you can send them to our front-ends to be verified at [app.goldfinch.finance/verify](https://app.goldfinch.finance/verify).
 
-{% hint style="info" %}
-**Please note**: UID is only open to non-U.S. individuals right now.&#x20;
-{% endhint %}
-
 ### **How It Works**
 
-UID is very simple. It works by having a trusted signer (Goldfinch in this case) verify that a given address has passed KYC, and once verified, gives that user a signed message, which they can present to the UID contract in order to mint their UID.
+UID functions by having a trusted signer (currently Warbler Labs, the core development team for Goldfinch and creator of UID) verify that a given address has passed KYC via the third-party integration (currently Persona). Once verified, the user receives a signed message which they can present to the UID contract in order to mint their UID.
 
 **So the user flow looks like this...**
 

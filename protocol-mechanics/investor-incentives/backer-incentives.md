@@ -15,11 +15,11 @@ The Early Backer Airdrop was passed by [community governance](https://gov.goldfi
 
 Staking on Backers, detailed below, is an element of the [Goldfinch Whitepaper](https://goldfinch.finance/goldfinch\_whitepaper.pdf) and as of April 2022 have not yet been implemented as a live feature on the protocol.
 
-### Early Backer Airdrop
+### Early Backer airdrop
 
 Backers of pools that were funded before the Backer Rewards and Backer Staking Rewards mechanisms were developed received a one-time airdrop, to reward their early support of the protocol. The parameters of the airdrop were defined in the [proposal](https://gov.goldfinch.finance/t/retroactive-backer-distribution-proposal-4-same-as-3-with-ammendment/505) passed by community governance.
 
-### Backer Rewards&#x20;
+### Backer rewards&#x20;
 
 Backer Rewards are distributed as GFI rewards to Backers for interest payments made by different Borrowers. For every dollar of interest that a Borrower repays, a Backer will earn an amount of GFI. To incentivize early participation in the protocol, this amount decreases based on the total amount of interest that has been repaid to the Goldfinch protocol as a whole.
 
@@ -27,7 +27,7 @@ The protocol does this to incentivize Backers who are evaluating pools to fully 
 
 This means that how much GFI a Backer earns for a dollar of interest is not a fixed value, i.e. at one point in time a Backer may earn a large amount of GFI per dollar of interest, but later in the protocol’s lifecycle they may earn less GFI per dollar of interest. Concretely, the rewards fall off on a square root curve and will eventually fall to 0 once $100MM total dollars of interest has been repaid by Borrowers to the Goldfinch protocol as a whole. As such, Backers who participate in the protocol’s earliest pools will receive more rewards than Backers who take part later on, when the protocol’s usage has grown.
 
-### Backer Staking Rewards&#x20;
+### Backer staking rewards&#x20;
 
 Backer Staking Rewards take the form of GFI distributed to Backers in exchange for their role taking on the additional risk of providing first-loss capital to Backer Pools. This is achieved by providing Backers equivalent GFI rewards as if they had deposited and staked in the protocol’s Senior Pool. The protocol does this so that Backers are compensated fairly for the increased risk they take on in the protocol.
 
@@ -35,25 +35,25 @@ Upon a successful repayment from a Borrower, a Backer will be able to claim the 
 
 Backer Staking Rewards is an implementation of the accepted Goldfinch governance proposal titled "[Backer Participation in Staking Rewards](https://gov.goldfinch.finance/t/backer-participation-in-staking-rewards/682).”
 
-### BackerRewards Contract Technical Design&#x20;
+![](<../../.gitbook/assets/Screen Shot 2022-06-27 at 11.15.39 AM.png>)
+
+### BackerRewards contract technical design&#x20;
 
 Backer Rewards Interest repayments to a Pool earn GFI for Backers according to the parameters of the approved [backer liquidity mining proposal](https://snapshot.org/#/goldfinch.eth/proposal/0xb716c18c38eb1828044aca84a1466ac08221a37a96ce73b04e9caa847e13e0da). Thus 2% of the total GFI supply is allocated for this purpose, to be earned upon the first $100M of interest repaid to the protocol. GFI are earned at an "exponentially decelerating rate" across all interest dollars repaid to eligible pools; the exact formula can be found in the documentation of the smart contract.
 
-![](https://lh3.googleusercontent.com/fwAIIkW4pZDVFJqi2Cb8Dy3-d\_5Bhw-IZd3qw4jtjd8\_DzwreXvQpiv2DnVvKYI2-G6mV\_jHBetfXCSrmbghKv8phLyvWNd15oUh6PjOMigih9rp7VYxcSSrTPlsBhnaRcqb9C7-)
-
-#### Backer Staking Rewards&#x20;
+#### Backer staking rewards&#x20;
 
 From the time of drawdown of the Pool's Backer capital, until the term end time of the loan, the protocol calculates an amount of "virtual" FIDU, corresponding to the borrowed amount of capital supplied by the backer, that would have earned the APY-from-GFI of Senior Pool staking, if that amount of FIDU had been staked in the Senior Pool. The backer earns an equivalent\[^1] amount of GFI as they would have earned from staking this amount of “virtual” FIDU in the Senior Pool.
 
 \[^1]: We say "equivalent" rather than "equal" due to a subtlety of implementation in the calculation logic relating to the term end time of the loan.
 
-#### Distribution Parameters&#x20;
+#### Distribution parameters&#x20;
 
 The GFI earned from Backer Rewards and Backer Staking Rewards is not subject to a lockup period once it is earned. But the GFI of Backer Rewards and Backer Staking Rewards is only earned by Backers upon an interest repayment to the pool by the Borrower, at which time the earnings from Backer Rewards and Backer Staking Rewards are checkpointed and a corresponding additional amount of GFI since the last checkpoint becomes claimable by backers.
 
 ### Staking on Backers&#x20;
 
-Staking on Backers, detailed below, is an element of the [Goldfinch Whitepaper](https://goldfinch.finance/goldfinch\_whitepaper.pdf) which as of April 2022 has not yet been implemented as a live feature on the protocol.
+Staking on Backers, detailed below, is an element of the [Goldfinch Whitepaper](https://goldfinch.finance/goldfinch\_whitepaper.pdf) which as of June 2022 has not yet been implemented as a live feature on the protocol.
 
 In addition to evaluating individual Borrower Pools, Backers may also evaluate other Backers in order to give them leverage. Backers can do this by staking GFI directly on another Backer. Based on the amount of GFI staked on a given Backer, the Senior Pool uses the Leverage Model to calculate a leverage ratio and allocate capital whenever that Backer supplies to Borrower Pools. For example, if a Backer has a leverage ratio of 4.0X based on who has staked GFI on them, then anytime they supply to a Borrower Pool, the Senior Pool will allocate up to 4.0X of that amount.
 
@@ -63,6 +63,6 @@ When GFI is staked on a Backer, that GFI serves as collateral against potential 
 
 To reward Backers for staking GFI on other Backers, the protocol distributes GFI to them on a regular basis. The protocol allocates the distributions in proportion to the interest their leveraged GFI earns. This incentivizes Backers to stake on other Backers who supply to high-yielding Borrower Pools.
 
-### Summary of Backer Incentives&#x20;
+### Summary of Backer incentives&#x20;
 
 Backers have an incentive to provide first-loss capital to Borrower Pools because they can receive both Backer rewards and higher effective yields based on the Senior Pool leverage. To help ensure that Backers are always receiving as much or higher of an APY on their pool participation as Senior Pool Participants, Backer Rewards and Backer Staking Rewards are also distributed based on participation. In the future, Backers will also have an incentive to stake GFI on other Backers as they will be able to earn additional rewards when that Backer supplies to Borrower Pools.
