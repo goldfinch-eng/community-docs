@@ -7,7 +7,7 @@ description: >-
 # For Developers
 
 {% hint style="warning" %}
-UID should be considered alpha software. It is used by the Goldfinch network, and we would love to see other protocols utilize the tool, but Warbler Labs cannot guarantee support or maintenance at this time. Use UID at your own risk. If you have questions or feedback, please contact us at uid@goldfinch.finance. We'd love to hear from you!
+UID should be considered alpha software. It is used by the Goldfinch network, and we would love to see other protocols utilize the tool, but Warbler Labs cannot guarantee support or maintenance at this time. Use UID at your own risk. If you have questions or feedback, please contact us at uid@warblerlabs.com. We'd love to hear from you!
 {% endhint %}
 
 ### Integrating UID in your smart contracts
@@ -72,4 +72,4 @@ All personal data is processed and handled through [Persona](https://withpersona
 
 ### Need to get in touch?
 
-Have questions about integrating? Do you have a certain use case, or feature you'd like to see? The community would love to hear from you. Reach out at **uid@goldfinch.finance**
+Have questions about integrating? Do you have a certain use case, or feature you'd like to see? The community would love to hear from you. Reach out at **uid@warblerlabs.com**
