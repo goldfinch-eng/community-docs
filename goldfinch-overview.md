@@ -54,13 +54,13 @@ At any time, a Backer or the Senior Pool can use their NFT to redeem their speci
 
 
 
-![Goldfinch protocol architecture ](.gitbook/assets/v2-design-diagram.png)
+![Goldfinch protocol architecture ](<.gitbook/assets/v2-design-diagram (1).png>)
 
 ## **Tokens**
 
 There are two native tokens on Goldfinch: GFI and FIDU. Both follow the ERC20 standard. In addition, the protocol utilizes stablecoins, currently only [USDC](https://www.circle.com/en/usdc), for investment and loans.
 
-**GFI** is Goldfinch’s core native token. GFI is used for governance voting, Auditor staking, Auditor vote rewards, staking on Backers, protocol incentives, and can be deposited into a Member Vault to earn a share of protocol revenue in exchange for helping to secure the protocol’s growth.
+**GFI** is Goldfinch’s core native token. GFI is used for governance voting, Auditor staking, Auditor vote rewards, community grants, staking on Backers, protocol incentives, and can be deposited into a Member Vault to earn a share of protocol revenue in exchange for helping to secure the protocol’s growth.
 
 **FIDU** is a token that represents a Liquidity Provider’s deposit to the Senior Pool. When a Liquidity Provider supplies to the Senior Pool, they receive an equivalent amount of FIDU. FIDU can be redeemed for USDC in the Goldfinch dapp at an exchange rate based on the net asset value of the Senior Pool, minus a 0.5% withdrawal fee. The exchange rate for FIDU increases over time as interest payments are made back to the Senior Pool.
 
