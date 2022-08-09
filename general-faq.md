@@ -79,9 +79,7 @@ The protocol provides a uni-tranche facility, whereby a single credit line is ma
 
 The smart contract code is freely accessible and can be found in Github. The Goldfinch smart contract has additionally been audited by 3rd party providers for security flaws by teams like Trail of Bits. You can learn more about the smart contract and Goldfinch's code in the [Developer Documentation](https://dev.goldfinch.finance/).&#x20;
 
-
-
-**Bots are immediately withdrawing as new money comes in! Can you stop this? What's going on?**
+#### **Bots are immediately withdrawing as new money comes in! Can you stop this? What's going on?**
 
 In times of very low excess liquidity in the Senior Pool, LP holders don't have the ability to exit their positions from the pool directly, so they turn to the secondary markets (like [Curve](https://curve.exchange/ethereum/pools/factory-crypto-23/swap/)) to sell their position. This can mean FIDU sells at a discount on those markets until more liquidity comes into the pool. &#x20;
 
