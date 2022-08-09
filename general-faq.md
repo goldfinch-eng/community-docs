@@ -79,6 +79,20 @@ The protocol provides a uni-tranche facility, whereby a single credit line is ma
 
 The smart contract code is freely accessible and can be found in Github. The Goldfinch smart contract has additionally been audited by 3rd party providers for security flaws by teams like Trail of Bits. You can learn more about the smart contract and Goldfinch's code in the [Developer Documentation](https://dev.goldfinch.finance/).&#x20;
 
+
+
+**Bots are immediately withdrawing as new money comes in! Can you stop this? What's going on?**
+
+In times of very low excess liquidity in the Senior Pool, LP holders don't have the ability to exit their positions from the pool directly, so they turn to the secondary markets (like [Curve](https://curve.exchange/ethereum/pools/factory-crypto-23/swap/)) to sell their position. This can mean FIDU sells at a discount on those markets until more liquidity comes into the pool. &#x20;
+
+This discount creates an opportunity for arbitrage bots to pull out the new deposits and repayments as soon as they come in (by buying discounted FIDU on the secondary, and selling it to the pool at the higher, native price). If you're an LP who isn't running a bot, and you want to exit, this can be frustrating, and so some people have asked that the community "do something" about it. Stop the bots in some way, thinking that this may stop the issue.&#x20;
+
+While certain new mechanics could help, it's important to remember 1.) No one can really stop someone from running a bot, and 2.) the bots are **an effect, not a cause of low liquidity**. So stopping them wouldn't really change the situation.&#x20;
+
+The secondary markets give LPs with the most need for liquidity the ability to exit now (at the expense of slippage), even when "native" liquidity isn't available. **The secondary markets do not fundamentally change the withdraw pressure**. They just create a market pricing mechanism for who is willing to "pay the most" for the ability to exit now.
+
+While eventually borrower repayments would cover everyone in the Senior Pool, the best overall solution is to continue to drive new liquidity to the pool. Once the arb opportunity closes, then any new liquidity will stay there and arb bots will not continue.
+
 #### What is in the Important Links section of the documentation?
 
 * [Governance Portal](https://gov.goldfinch.finance/): The site for Goldfinch's Governance proposals and Discussions. You can learn more about the Governance process in the [Governance section](governance.md) of the documentation.
