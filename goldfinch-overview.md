@@ -4,7 +4,7 @@ description: A short overview of Goldfinch's key mechanics
 
 # Goldfinch Overview
 
-_This overview is a condensed and accessible version of the_ [_Goldfinch Whitepaper Version 1.1_](https://goldfinch.finance/goldfinch\_whitepaper.pdf)_, published in July 2021, which provides the technical and in-depth explanation of the protocol’s foundations. You can learn about the below in more detail in the_ [_protocol mechanics sections_](protocol-mechanics/) _of the documentation._
+_This overview is a condensed and accessible version of the_ [_Goldfinch Whitepaper Version 1.1_](https://goldfinch.finance/goldfinch\_whitepaper.pdf)_, published in July 2021, which provides the technical and in-depth explanation of the protocol’s foundations. You can learn about the below in more detail in the_ [_protocol mechanics section_](protocol-mechanics/) _of the documentation._
 
 _For a deeper technical dive into Goldfinch’s code, smart contract configuration, security, and other technical features, view the_ [_Goldfinch Developer Documentation_](https://dev.goldfinch.finance/)_._
 
@@ -16,11 +16,15 @@ By incorporating the principle of “trust through consensus,” the Goldfinch p
 
 ## **Participants**
 
-The Goldfinch protocol has three key roles: Borrowers, Investors, and Auditors. You can learn in more detail about these roles and their incentives (APY, rewards, etc.) in the [protocol mechanics sections](protocol-mechanics/) of the documentation.
+The Goldfinch protocol has three key roles: Investors, Borrowers, and Auditors. You can learn in more detail about these roles and their incentives (APYs, rewards, etc.) in the [protocol mechanics section](protocol-mechanics/) of the documentation.
+
+**Investors** are participants who provide USDC to the protocol to be utilized by Borrowers. There are two ways to become an Investor on Goldfinch: as a Backer or as a Liquidity Provider.&#x20;
+
+_****_[_**Backers**_](protocol-mechanics/backers.md) **optimize for yield and specificity.** They **** assess individual Borrower Pools, decide whether to invest in them directly with first-loss capital, and earn the protocol’s highest yields for doing so.&#x20;
+
+_****_[_**Liquidity Providers**_](protocol-mechanics/liquidityproviders.md) _****_** optimize for diversification and liquidity.** They **** supply second-loss capital to the Senior Pool, which automatically allocates its funds across all Borrower Pools according to the assessment of Backers.
 
 **Borrowers** are participants who seek financing from Goldfinch, and they propose Borrower Pools to be assessed by the network. Borrower Pools are smart contracts that contain the terms a Borrower seeks for their loan, such as the interest rate and repayment schedule.
-
-**Investors** are participants who provide crypto capital to the protocol to be utilized by Borrowers. There are two ways to become an Investor on Goldfinch—as a Backer or as a Liquidity Provider—based on one’s desired level of involvement, risk tolerance, and potential yields. _**Backers**_** ** assess individual Borrower Pools, decide whether to invest in them directly with first-loss capital, and earn the protocol’s highest yields for doing so. _**Liquidity Providers**_ supply second-loss capital to the Senior Pool, which automatically allocates its funds across all Borrower Pools according to the assessment of Backers.
 
 **Auditors** vote to approve Borrowers, a required step before they can propose a Borrower Pool to Backers. Auditors are randomly selected by the protocol to provide a human-level check guarding against fraudulent activity and earn rewards in exchange for conducting this work. Note that as of June 2021 the Auditor role is not yet live on Goldfinch.
 
