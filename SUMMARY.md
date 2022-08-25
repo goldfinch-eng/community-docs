@@ -16,6 +16,7 @@
   * [Discussion of Fraud Resistance](protocol-mechanics/discussionoffraudresistance.md)
   * [Staking](protocol-mechanics/staking.md)
   * [GFI Token](protocol-mechanics/gfi-token.md)
+  * [Liquidity](protocol-mechanics/liquidity.md)
 * [Governance](governance.md)
 * [Tokenomics](tokenomics/README.md)
   * [Token Launch FAQ](tokenomics/token-launch-faq.md)
