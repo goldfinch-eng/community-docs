@@ -2,7 +2,7 @@
 
 ## Senior Pool LPs: FIDU Liquidity&#x20;
 
-Senior Pool [Liquidity Providers](https://docs.goldfinch.finance/goldfinch/protocol-mechanics/liquidityproviders) with a [Unique Identity NFT (UID)](https://docs.goldfinch.finance/goldfinch/unique-identity-uid) are able to withdraw directly from the Senior Pool at par, at any time when USDC is available in the pool. There is a 0.5% withdrawal fee for redeeming FIDU for USDC on Goldfinch, contributing funding to the Goldfinch treasury.
+Senior Pool [Liquidity Providers](liquidityproviders) with a [Unique Identity NFT (UID)](unique-identity-uid) are able to withdraw directly from the Senior Pool at par, at any time when USDC is available in the pool. There is a 0.5% withdrawal fee for redeeming FIDU for USDC on Goldfinch, contributing funding to the Goldfinch treasury.
 
 In the event that the Senior Pool is being fully utilized by Borrowers, a Senior Pool LP may be unable to natively withdraw their position from the Senior Pool until repayments are made, or new deposits are made.
 
@@ -10,7 +10,7 @@ Various Goldfinch community members and third-parties have taken steps to create
 
 ## Backer Position: PoolToken NFT&#x20;
 
-[Backers ](https://docs.goldfinch.finance/goldfinch/protocol-mechanics/backers)with a [Unique Identity NFT (UID)](https://docs.goldfinch.finance/goldfinch/unique-identity-uid) may withdraw interest payments as they are paid by the Borrower, which is monthly across all Goldfinch Borrower Pools as of August 2022. Principal liquidity is dependent on the Pool term as proposed by the Borrower, currently three years on average as of August 2022.
+[Backers ](backers)with a [Unique Identity NFT (UID)](unique-identity-uid) may withdraw interest payments as they are paid by the Borrower, which is monthly across all Goldfinch Borrower Pools as of August 2022. Principal liquidity is dependent on the Pool term as proposed by the Borrower, currently three years on average as of August 2022.
 
 There is no withdrawal fee for claiming a Backer’s share of a Pool’s interest repayments or principal.
 
