@@ -1,10 +1,10 @@
 # Staking
 
-There are currently two types of staking accessible on the Goldfinch protocol. All staking and participation incentives are driven and established via [Goldfinch’s community governance](governance.md) process. Staking can be accessed in the Goldfinch protocol application at [app.goldfinch.finance/stake](https://app.goldfinch.finance/stake).
+There are currently two types of staking accessible on the Goldfinch protocol. All staking and participation incentives are driven and established via [Goldfinch’s community governance](../governance.md) process. Staking can be accessed in the Goldfinch protocol application at [app.goldfinch.finance/stake](https://app.goldfinch.finance/stake).
 
 ## Staking FIDU-USDC Curve LP Positions
 
-Following a successful [community governance proposal](https://gov.goldfinch.finance/t/gip-01-allow-fidu-usdc-curve-lp-positions-to-be-staked-for-gfi-liquidity-mining-rewards/734), Liquidity Provider (LP) positions from participation in the Curve FIDU-USDC Pool can be staked on Goldfinch to receive additional [GFI](protocol-mechanics/gfi-token.md) liquidity mining rewards.
+Following a successful [community governance proposal](https://gov.goldfinch.finance/t/gip-01-allow-fidu-usdc-curve-lp-positions-to-be-staked-for-gfi-liquidity-mining-rewards/734), Liquidity Provider (LP) positions from participation in the Curve FIDU-USDC Pool can be staked on Goldfinch to receive additional [GFI](gfi-token.md) liquidity mining rewards.
 
 GFI rewards for staking Curve LP positions come from the existing distribution parameters of the Senior Pool Liquidity Mining program, including being subject to the same unlock schedule as well.
 
@@ -27,7 +27,7 @@ Governance can always decide to change these parameters.
 
 To encourage long-term participation, the GFI distributions received from liquidity mining unlock linearly over the first 12 months of staking. This means that while you can withdraw whenever you like, if you withdraw before 12 months, you will forfeit some of your GFI distributions. For example, after 3 months you'd forfeit 75%, after 6 months you'd forfeit 50%, and so on. After 12 months, you will continue to receive distributions, and will never forfeit any GFI. See below for more details.
 
-You can read Goldfinch’s documentation on [Senior Pool Liquidity Mining](protocol-mechanics/senior-pool-liquidity-mining.md) to learn more about the Senior Pool Liquidity Mining’s GFI distribution rate, parameters, and unlock schedule, which are the same parameters used for Staking FIDU-USDC Curve LP Positions.
+You can read Goldfinch’s documentation on [Senior Pool Liquidity Mining](investor-incentives/senior-pool-liquidity-mining.md) to learn more about the Senior Pool Liquidity Mining’s GFI distribution rate, parameters, and unlock schedule, which are the same parameters used for Staking FIDU-USDC Curve LP Positions.
 
 ### Technical specifications
 
@@ -39,7 +39,7 @@ Note: The Goldfinch protocol uses Curve’s virtual price to calculate the effec
 
 ## Senior Pool Liquidity Mining
 
-Participants can earn [GFI](protocol-mechanics/gfi-token.md) by staking the FIDU received from supplying capital (USDC) to the [Senior Pool](protocol-mechanics/liquidityproviders.md). Read our documentation on [Senior Pool Liquidity Mining](protocol-mechanics/senior-pool-liquidity-mining.md) to learn more about the Senior Pool Liquidity Mining’s GFI distribution rate, parameters, and unlock schedule.
+Participants can earn [GFI](gfi-token.md) by staking the FIDU received from supplying capital (USDC) to the [Senior Pool](liquidityproviders.md). Read our documentation on [Senior Pool Liquidity Mining](investor-incentives/senior-pool-liquidity-mining.md) to learn more about the Senior Pool Liquidity Mining’s GFI distribution rate, parameters, and unlock schedule.
 
 Participants can stake their FIDU for GFI by visiting the [Stake](https://app.goldfinch.finance/stake) tab in the platform, and selecting FIDU under Stake on Goldfinch.
 
@@ -49,4 +49,4 @@ Participants can migrate their staked FIDU to deposit into the Curve FIDU-USDC p
 
 ### Backer Bonus incentives
 
-To ensure that [Backers](protocol-mechanics/backers.md), who do not receive FIDU in exchange for providing capital to Borrower Pools, are compensated fairly for their participation in the protocol, Backer Staking Rewards are GFI rewards earned by Backers equivalent to the APY from GFI earned by liquidity providers who supply to the Senior Pool and stake their FIDU. Read our documentation on [Backer Incentives](protocol-mechanics/backer-incentives.md) to learn more about how Backers receive GFI rewards.
+To ensure that [Backers](backers.md), who do not receive FIDU in exchange for providing capital to Borrower Pools, are compensated fairly for their participation in the protocol, Backer Staking Rewards are GFI rewards earned by Backers equivalent to the APY from GFI earned by liquidity providers who supply to the Senior Pool and stake their FIDU. Read our documentation on [Backer Incentives](investor-incentives/backer-incentives.md) to learn more about how Backers receive GFI rewards.

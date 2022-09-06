@@ -20,7 +20,7 @@ Having an on-chain representation of personhood achieves two major unlocks. Firs
 
 Many companies today don’t interact with DeFi due to KYC/KYB and counterparty concerns. But UID solves these issues for them. Many companies are already [borrowing through Goldfinch](https://app.goldfinch.finance/earn), and they wouldn’t be able to without the KYC/KYB and accreditation verifications. As companies grow comfortable with crypto, they could drive an incredible amount of new volume to DeFi protocols.
 
-UID is completely interoperable with the rest of DeFi. It is a standard ERC-1155 contract, so any protocol can get the benefits without having to build their own KYC flow or handle any data themselves. If you’re a builder, go to the [Developer docs](https://docs.goldfinch.finance/goldfinch/unique-identity-uid/for-developers) to learn more.
+UID is completely interoperable with the rest of DeFi. It is a standard ERC-1155 contract, so any protocol can get the benefits without having to build their own KYC flow or handle any data themselves. If you’re a builder, go to the [Developer docs](for-developers.md) to learn more.
 
 It’s also important to emphasize that UID seriously factors in privacy. No personally identifiable data is stored on-chain. Goldfinch has partnered with [Persona](https://withpersona.com/) to manage the KYC process and data, and with [Parallel Markets](https://parallelmarkets.com/) to manage the KYB and accreditation processes and data. They both offer [industry-leading privacy and security practices](https://withpersona.com/security) that are trusted by many of the largest technology companies. Learn more [here](https://medium.com/goldfinch-fi/introducing-unique-identity-uid-the-first-nft-for-identity-830a89207509).
 

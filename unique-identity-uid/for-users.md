@@ -2,7 +2,7 @@
 
 ## How to create your UID&#x20;
 
-As of January 26, 2022, U.S. individuals can obtain a Unique Identity (UID). This will allow US-based GFI holders to participate in [governance](https://docs.goldfinch.finance/goldfinch/governance#participation). However, only U.S. Accredited Investors will be able to participate in supplying capital to the protocol at this time.&#x20;
+As of January 26, 2022, U.S. individuals can obtain a Unique Identity (UID). This will allow US-based GFI holders to participate in [governance](../governance.md#participation). However, only U.S. Accredited Investors will be able to participate in supplying capital to the protocol at this time.&#x20;
 
 ### Step 1: Sign In&#x20;
 

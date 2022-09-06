@@ -40,7 +40,7 @@ In this way, the protocol provides the utility of crypto—specifically, its glo
 
 In order to determine how to allocate capital from the Senior Pool, the protocol uses a principle of "trust through consensus." This means that while the protocol doesn't trust any individual Backer or Auditor, it does trust the collective actions of many of them.&#x20;
 
-At a high level: when more Backers supply to a given Borrower Pool, the Senior Pool [increases the ratio with which it adds leverage](https://docs.goldfinch.finance/goldfinch/protocol-mechanics/leveragemodel). Because this approach relies on counting individual Backers, the protocol must ensure they are in fact represented by different people. Therefore, all Backers, Borrowers, and Auditors require a "unique entity check" to participate (see below).
+At a high level: when more Backers supply to a given Borrower Pool, the Senior Pool [increases the ratio with which it adds leverage](protocol-mechanics/leveragemodel.md). Because this approach relies on counting individual Backers, the protocol must ensure they are in fact represented by different people. Therefore, all Backers, Borrowers, and Auditors require a "unique entity check" to participate (see below).
 
 ## **Junior and senior tranches**
 
@@ -89,10 +89,10 @@ Goldfinch is a decentralized, community-driven and community-managed protocol. G
 
 Since the protocol relies on “trust through consensus,” it is critical to avoid [Sybil Attacks](https://en.wikipedia.org/wiki/Sybil\_attack) by having confidence that each Borrower, Backer, and Auditor is a unique entity. Therefore, they must each be verified with a “Unique Entity Check” before they can participate.
 
-Governance approves the protocol’s Unique Entity Check providers. Currently, this is solved by [Unique Identity (UID)](https://docs.goldfinch.finance/goldfinch/unique-identity-uid), the world’s first NFT for identity verification.&#x20;
+Governance approves the protocol’s Unique Entity Check providers. Currently, this is solved by [Unique Identity (UID)](unique-identity-uid), the world’s first NFT for identity verification.&#x20;
 
 UID is a non-transferrable NFT representing Know-Your-Customer (KYC), Know-Your-Business (KYB), and/or U.S. investor accreditation verification on-chain. It follows ERC-1155 standards, and is freely usable by any other protocol. No personally identifiable data is stored on-chain. UID is a product developed by Warbler Labs, the core development team supporting Goldfinch’s growth. At any time the Goldfinch community can use the governance process to update or change how the Unique Entity Check is being conducted, such as by introducing oracles that perform off-chain checks to validate that the wallet addresses are unique entities.
 
 ## **Ready to learn more?**
 
-This brief overview is only intended to provide a baseline understanding of Goldfinch and how it functions. To learn about the above in more detail, along with additional information on incentives and rewards, fraud resistance, the Leverage Model that determines Senior Pool allocation, and more, read on through the [Protocol Mechanics sections](https://docs.goldfinch.finance/goldfinch/protocol-mechanics).
+This brief overview is only intended to provide a baseline understanding of Goldfinch and how it functions. To learn about the above in more detail, along with additional information on incentives and rewards, fraud resistance, the Leverage Model that determines Senior Pool allocation, and more, read on through the [Protocol Mechanics sections](protocol-mechanics).
