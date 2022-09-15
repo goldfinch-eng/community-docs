@@ -10,7 +10,8 @@ A Borrower Pool is the smart contract through which Borrowers borrow and repay c
 
 * **Interest Rate**: Fixed interest rate APR, e.g. 15%.&#x20;
 * **Limit**: Total capital that can be borrowed, e.g. $10M.&#x20;
-* **Payment Frequency**: Frequency of interest and principal payments, e.g. every 30 days. Term: The length of time until the full principal is due, e.g. 365 days.&#x20;
+* **Payment Frequency**: Frequency of interest and principal payments, e.g. every 30 days.
+* **Term:** The length of time until the full principal is due, e.g. 365 days.&#x20;
 * **Late Fee**: Additional interest owed when payments are late, e.g. 5%.&#x20;
 
 Creating a Borrower Pool is like proposing a “term sheet” to Backers. It does not guarantee the terms will be accepted, since Borrowers then need to convince Backers to supply junior tranche (first-loss) capital to the Pool. The amount Borrowers can borrow is based on how much Backers supply, combined with the correlated amount the Senior Pool allocates based on the Leverage Model.
