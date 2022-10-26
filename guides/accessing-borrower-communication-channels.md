@@ -18,10 +18,10 @@ As a reminder, these channels are configured to allow only:&#x20;
 
 To access the channel:
 
-1. Click[ this link](https://discord.com/channels/793925570739044362/987505373864939550) to enter the Goldfinch Discord server
-2. Once you are in the server, enter the **#collabland-join** channel to verify your assets. You will find this channel under the ‘Borrower Pools’ category.
+1. Click this [link](https://discord.com/channels/793925570739044362/1034881143964717066) to enter the Goldfinch Discord server
+2. Once you are in the server, enter the **#guild-join** channel to verify your assets. You will find this channel under the ‘Borrower Pools’ category.
 
-![](../.gitbook/assets/Untitled.png)
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 3\. In the channel, you will see the message pictured below. Click **‘Let’s go!’** and follow the instructions to verify your assets. Please make sure you are using the wallet that contains your pool tokens to verify your assets.
 

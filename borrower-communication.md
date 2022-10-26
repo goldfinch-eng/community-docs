@@ -32,7 +32,7 @@ For every Borrower Pool on the Goldfinch protocol, there will be a **community-m
 **Note:** The rationale for a $10,000 minimum to participate as a Senior Pool LP is driven by the need to ensure Senior Pool Investors meet an adequately high bar for “skin in the game.” The incredibly sensitive nature of the underlying data Borrowers are reporting can essentially be thought of as trade secrets, given the depth of detail and private company data the Borrowers are reporting in these channels. With Borrowers forming a core component of the Goldfinch protocol, it’s imperative that their interests are protected so that bad actors cannot easily the Borrowers’ sensitive data.
 {% endhint %}
 
-The token-gating configuration is executed using the [collab.land](http://collab.land) tool to grant access only to Backers and Senior Pool LPs as described above.&#x20;
+The token-gating configuration is executed using the [guild.xyz](https://guild.xyz/) tool to grant access only to Backers and Senior Pool LPs as described above.&#x20;
 
 The primary purpose of this channel is to facilitate asynchronous communication between Borrowers and Investors. These communications can take a number of forms, including:
 
