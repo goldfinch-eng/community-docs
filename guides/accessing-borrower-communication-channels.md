@@ -23,9 +23,9 @@ To access the channel:
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-3\. In the channel, you will see the message pictured below. Click **‘Let’s go!’** and follow the instructions to verify your assets. Please make sure you are using the wallet that contains your pool tokens to verify your assets.
+3\. In the channel, you will see the message pictured below. Click **‘Verify your assets’** and follow the instructions to verify your assets. Please make sure you are using the wallet that contains your pool tokens to verify your assets.
 
-![](<../.gitbook/assets/Untitled (1).png>)
+<figure><img src="../.gitbook/assets/Screen Shot 2022-10-26 at 1.33.31 PM (1).png" alt=""><figcaption></figcaption></figure>
 
 4\. Once your asset verification is complete, you will be able to access the token-gated channels for any pools for which you qualify.
 
