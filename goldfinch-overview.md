@@ -8,11 +8,11 @@ _This overview is a condensed and accessible version of the_ [_Goldfinch Whitepa
 
 _For a deeper technical dive into Goldfinch’s code, smart contract configuration, security, and other technical features, view the_ [_Goldfinch Developer Documentation_](https://dev.goldfinch.finance/)_._
 
-## **Goldfinch is a decentralized credit protocol that allows for crypto borrowing without crypto collateral.**
+## **Goldfinch is a decentralized credit protocol that allows for crypto borrowing without crypto collateral—with loans instead fully collateralized off-chain.**
 
 A core limitation of current decentralized crypto lending protocols is that they require borrowers to overcollateralize their loans with crypto assets, which prevents the vast majority of borrowers in the world from participating.
 
-By incorporating the principle of “trust through consensus,” the Goldfinch protocol creates a way for borrowers to show creditworthiness based on the collective assessment of other participants rather than based on their crypto assets.
+By incorporating the principle of “trust through consensus,” the Goldfinch protocol creates a way for borrowers to show creditworthiness based on the collective assessment of other participants rather than based on their crypto assets. Currently, all loans on the protocol are fully collateralized with off-chain assets and income.
 
 ## **Participants**
 
@@ -62,7 +62,7 @@ At any time, a Backer or the Senior Pool can use their NFT to redeem their speci
 
 There are two native tokens on Goldfinch: GFI and FIDU. Both follow the ERC20 standard. In addition, the protocol utilizes stablecoins, currently only [USDC](https://www.circle.com/en/usdc), for investment and loans.
 
-**GFI** is Goldfinch’s core native token. GFI is used for governance voting, Auditor staking, Auditor vote rewards, community grants, staking on Backers, protocol incentives, and can be deposited into a Member Vault to earn a share of protocol revenue in exchange for helping to secure the protocol’s growth.
+**GFI** is Goldfinch’s core native token. GFI is used for governance voting, Auditor staking, Auditor vote rewards, community grants, staking on Backers, protocol incentives, and can be deposited into a Member Vault to earn Member Rewards in exchange for helping to secure the protocol’s growth.
 
 **FIDU** is a token that represents a Liquidity Provider’s deposit to the Senior Pool. When a Liquidity Provider supplies to the Senior Pool, they receive an equivalent amount of FIDU. FIDU can be redeemed for USDC in the Goldfinch dapp at an exchange rate based on the net asset value of the Senior Pool, minus a 0.5% withdrawal fee. The exchange rate for FIDU increases over time as interest payments are made back to the Senior Pool.
 
