@@ -9,6 +9,7 @@
   * [Backers](protocol-mechanics/backers.md)
   * [Liquidity Providers](protocol-mechanics/liquidityproviders.md)
   * [Leverage Model](protocol-mechanics/leveragemodel.md)
+  * [Membership](protocol-mechanics/membership.md)
   * [Investor Incentives](protocol-mechanics/investor-incentives/README.md)
     * [Backer Incentives](protocol-mechanics/investor-incentives/backer-incentives.md)
     * [Senior Pool Liquidity Mining](protocol-mechanics/investor-incentives/senior-pool-liquidity-mining.md)

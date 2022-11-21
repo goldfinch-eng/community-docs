@@ -12,6 +12,8 @@
 
 **Liquidity Providers** — Investors who supply capital to Goldfinch by depositing in the Senior Pool. This Senior Pool capital is automatically allocated across Borrower Pools via the senior tranches (second-loss) according to the Leverage Model.
 
+**Members** — Participants who supply capital and GFI to a Goldfinch Membership Vault to support the network's growth and security, and receive Member Rewards for their enhanced participation.
+
 ## **Mechanics**
 
 **Borrower Pool** — Investment pools for specific Borrower deals. A Borrower Pool is a smart contract that encodes a set of financing terms for a Borrower, including the interest rate and repayment schedule, proposed by the Borrower, and through which the Borrower can borrow capital and repay it by those terms.&#x20;
@@ -26,6 +28,8 @@
 
 **Leverage Model** — A formula by which the Senior Pool automatically determines how much capital to allocate to the senior tranche of each Borrower Pool.&#x20;
 
+**Membership Vault** — **** A vault for locking capital to help secure the growth and security of the Goldfinch network as a Member, earning a share of the protocol's fee revenue for doing so in the form of Member Rewards.
+
 **Senior Pool** — An investment pool for automatically diversified yields. The Senior Pool is a smart contract that accepts capital from Liquidity Providers and automatically allocates capital to the senior tranches of Borrower Pools, according to Goldfinch's Leverage Model.&#x20;
 
 **Senior Tranche** — The senior (second-loss) capital segment of the Borrower Pool smart contract, funded by the Senior Pool according to the Leverage Model.
@@ -39,5 +43,7 @@
 **Early Backer Airdrop** — A GFI reward provided to Backers who contributed to a Pool before the implementation of the community governance proposals for Backer Rewards and Backer Staking Rewards mechanisms.&#x20;
 
 **Investor Rewards** — The additional GFI return all Investors on Goldfinch receive in exchange for their participation in the protocol. Investor Rewards are an estimated return as they are not defined by Borrowers' financing terms, but are instead dependent on tokenomics and network dynamics.&#x20;
+
+**Member Rewards** — Goldfinch Members receive yield enhancements via Member Rewards, which have been earmarked from the Goldfinch treasury and are distributed pro-rata based on one’s Membership Vault position.
 
 **USDC APY** — The base-level USDC return an Investor receives for participating in Goldfinch, generated from Borrowers' interest payments on their loans. The USDC APY is defined in the Borrowers' financing terms when they establish Borrower Pools. For Backers, this APY is a fixed rate as defined by the Borrower Pool's terms and the Senior Pool leverage. For Liquidity Providers, this rate is estimated as the Senior Pool's USDC returns vary based on the Senior Pool's usage and balance.

@@ -16,17 +16,18 @@ By incorporating the principle of “trust through consensus,” the Goldfinch p
 
 ## **Participants**
 
-The Goldfinch protocol has three key roles: Investors, Borrowers, and Auditors. You can learn in more detail about these roles and their incentives (APYs, rewards, etc.) in the [protocol mechanics section](protocol-mechanics/) of the documentation.
+The Goldfinch protocol has three key roles: Investors, Borrowers, and Auditors. In addition, Members are Investors that have enhanced their participation to support the protocol’s growth. You can learn in more detail about these roles and their incentives (APYs, rewards, etc.) in the [protocol mechanics section](protocol-mechanics/) of the documentation.
 
 **Investors** are participants who provide USDC to the protocol to be utilized by Borrowers. There are two ways to become an Investor on Goldfinch: as a Backer or as a Liquidity Provider.
 
-__[_**Backers**_](protocol-mechanics/backers.md) **optimize for yield and specificity.** They assess individual Borrower Pools, decide whether to invest in them directly with first-loss capital, and earn the protocol’s highest yields for doing so.
+* [_**Backers**_](protocol-mechanics/backers.md) optimize for yield and specificity. They assess individual Borrower Pools, decide whether to invest in them directly with first-loss capital, and earn the protocol’s highest yields for doing so.
+* [_**Liquidity Providers**_](protocol-mechanics/liquidityproviders.md) optimize for diversification and liquidity. They supply second-loss capital to the Senior Pool, which automatically allocates its funds across all Borrower Pools according to the assessment of Backers.
 
-__[_**Liquidity Providers**_](protocol-mechanics/liquidityproviders.md) optimize for diversification and liquidity. They supply second-loss capital to the Senior Pool, which automatically allocates its funds across all Borrower Pools according to the assessment of Backers.
+****[**Members**](protocol-mechanics/membership.md) are participants who supply capital and GFI to a Goldfinch Membership Vault to support the network's growth and security, and receive Member Rewards for their enhanced participation.
 
-**Borrowers** are participants who seek financing from Goldfinch, and they propose Borrower Pools to be assessed by the network. Borrower Pools are smart contracts that contain the terms a Borrower seeks for their loan, such as the interest rate and repayment schedule.
+****[**Borrowers**](protocol-mechanics/borrowers.md) are participants who seek financing from Goldfinch, and they propose Borrower Pools to be assessed by the network. Borrower Pools are smart contracts that contain the terms a Borrower seeks for their loan, such as the interest rate and repayment schedule.
 
-**Auditors** vote to approve Borrowers, a required step before they can propose a Borrower Pool to Backers. Auditors are randomly selected by the protocol to provide a human-level check guarding against fraudulent activity and earn rewards in exchange for conducting this work. Note that as of June 2021 the Auditor role is not yet live on Goldfinch.
+****[**Auditors**](protocol-mechanics/auditors.md) vote to approve Borrowers, a required step before they can propose a Borrower Pool to Backers. Auditors are randomly selected by the protocol to provide a human-level check guarding against fraudulent activity and earn rewards in exchange for conducting this work. Note that as of June 2021 the Auditor role is not yet live on Goldfinch.
 
 ## **How Goldfinch works**
 
@@ -60,7 +61,7 @@ At any time, a Backer or the Senior Pool can use their NFT to redeem their speci
 
 ## **Tokens**
 
-There are two native tokens on Goldfinch: GFI and FIDU. Both follow the ERC20 standard. In addition, the protocol utilizes stablecoins, currently only [USDC](https://www.circle.com/en/usdc), for investment and loans.
+There are two native tokens on Goldfinch: GFI and FIDU. Both follow the ERC20 standard. In addition, the protocol utilizes stablecoins, currently only [USDC](https://www.circle.com/en/usdc), for investment and loans.&#x20;
 
 **GFI** is Goldfinch’s core native token. GFI is used for governance voting, Auditor staking, Auditor vote rewards, community grants, staking on Backers, protocol incentives, and can be deposited into a Member Vault to earn Member Rewards in exchange for helping to secure the protocol’s growth.
 
