@@ -38,14 +38,36 @@ Member Rewards are distributed weekly in FIDU, naturally increasing Members’ e
 
 If a participant deposits assets into the Membership Vault during a weekly reward cycle their assets will begin accumulating Member Rewards at the beginning of the next weekly reward cycle. While Members can withdraw their deposited assets at any time to exit Membership, if they withdraw before the end of a weekly reward cycle they will forfeit any Member Rewards they would have received during that cycle.
 
-A Member’s precise share of Member Rewards is calculated using the Cobb-Douglas function, an equation commonly used in economic analysis for balanced input relationships generating an output, and also used by protocols such as 0x and The Graph for reward systems. You can learn in-depth about how Member Rewards are calculated in the original [Membership Governance proposal (GIP-13)](https://gov.goldfinch.finance/t/gip-13-tokenomics-update-phase-1-membership-vaults/996#member-reward-share-calculation-9).
-
 Following launch, Members will also have access to exclusive communication channels, special offers, and more.
 
-## How are the estimated Member Rewards calculated?&#x20;
+### Member Rewards calculation
+
+The Member Rewards share calculation is a governance-controlled parameter that determines the optimal share of Capital and GFI for maximizing rewards in Membership Vaults.
+
+\
+A Member’s precise share of Member Rewards is calculated using the [Cobb-Douglas function](https://en.wikipedia.org/wiki/Cobb%E2%80%93Douglas\_production\_function), an equation commonly used in economic analysis for balanced input relationships generating an output, and also used by protocols such as 0x and The Graph for reward systems. \
+\
+All values are for a given weekly period:
+
+<figure><img src="https://global.discourse-cdn.com/standard17/uploads/goldfinch/optimized/1X/db6299b2c7a1f16e91500690ed425badbf42e3ea_2_517x274.png" alt=""><figcaption></figcaption></figure>
+
+The two variables in the Member Reward equation that are determined by governance are:
+
+* μ = Share of earmarked treasury used for Member Rewards
+  * You can think of this as “What percentage of the earmarked treasury allocation should be allocated to members?”
+  * Currently, μ = 50%
+* α = Capital supply amplification weight.
+  * You can think of this as “How much should we weight locked capital supply, versus locked GFI for fee shares?”
+  * Currently α = 0.50
+
+The μ and α values can be changed by governance vote. μ = 50% allows the protocol to build sufficient stablecoin reserves for future needs, like community grants, and α = 0.50 is a good starting point to observe how dynamics play out between the balances of capital supply and GFI.\
+\
+You can learn in-depth about how Member Rewards are calculated in the original [Membership Governance proposal (GIP-13)](https://gov.goldfinch.finance/t/gip-13-tokenomics-update-phase-1-membership-vaults/996#member-reward-share-calculation-9).
+
+### How are the estimated Member Rewards in the app calculated?&#x20;
 
 The estimated Member Rewards displayed in the Goldfinch platform are calculated based on a) one’s Membership Vault position, and b) on the distribution of total capital in the Membership Vault overall.&#x20;
 
-* This number is an estimate because rewards are distributed pro-rata to Members at the end of each reward cycle—as such, other Investors entering or exiting the Membership Vault during a reward cycle will change the percentage of rewards one is expected to receive, due to changing what percentage of the Vault one’s individual position represents.\
+* This number is an estimate because rewards are distributed pro-rata to Members at the end of each reward cycle—as such, oter Investors entering or exiting the Membership Vault during a reward cycle will change the percentage of rewards one is expected to receive, due to changing what percentage of the Vault one’s individual position represents.\
 
 * The estimated Member Rewards displayed is a dynamic number that reflects the distribution of total capital in the Membership Vault overall at that moment in time and one’s Member Vault position at that moment in time.
