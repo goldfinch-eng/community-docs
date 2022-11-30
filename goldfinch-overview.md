@@ -53,9 +53,11 @@ This is to ensure an alignment of incentives. Backers, who actively assess the v
 
 Liquidity Providers, who provide capital to the Senior Pool that is automatically allocated across Borrower Pools according to the actions of Backers, take on less risk by providing second-loss capital via senior tranches. This provides Liquidity Providers with the added security of knowing that they will be the first repaid if a Pool that was evaluated positively by Backers does go into default.
 
-To track the different amounts that investors supply, both Backers and the Senior Pool receive an NFT representing their deposit when they supply capital. The NFT tracks the amount that was supplied and how much of it has been redeemed. This allows the protocol to ensure that no one redeems for more than their proportional share of the total repayments as they come in.
+To track the different amounts that investors supply, Backers receive an NFT representing their deposit when they supply capital. The NFT tracks the amount that was supplied and how much of it has been redeemed. This allows the protocol to ensure that no one redeems for more than their proportional share of the total repayments as they come in.
 
-At any time, a Backer or the Senior Pool can use their NFT to redeem their specific portion of the available repayments in the Pool.
+Senior Pool LPs receive FIDU, an ERC-20 token representing their position that grows in USDC exchange value as interest and repayments are made to the Senior Pool.
+
+At any time, a Backer can use their NFT to redeem their specific portion of the available repayments in the Pool. Senior Pool Liquidity Providers can withdraw their position in the Senior Pool at any time by depositing their FIDU to a [Withdrawal Request](https://docs.goldfinch.finance/goldfinch/protocol-mechanics/liquidity).
 
 ![Goldfinch protocol architecture](.gitbook/assets/v2-design-diagram.png)
 
@@ -90,7 +92,9 @@ Since the protocol relies on “trust through consensus,” it is critical to av
 
 Governance approves the protocol’s Unique Entity Check providers. Currently, this is solved by [Unique Identity (UID)](unique-identity-uid/), the world’s first NFT for identity verification.
 
-UID is a non-transferrable NFT representing Know-Your-Customer (KYC), Know-Your-Business (KYB), and/or U.S. investor accreditation verification on-chain. It follows ERC-1155 standards, and is freely usable by any other protocol. No personally identifiable data is stored on-chain. UID is a product developed by Warbler Labs, the core development team supporting Goldfinch’s growth. At any time the Goldfinch community can use the governance process to update or change how the Unique Entity Check is being conducted, such as by introducing oracles that perform off-chain checks to validate that the wallet addresses are unique entities.
+UID is a non-transferrable NFT representing Know-Your-Customer (KYC), Know-Your-Business (KYB), and/or U.S. investor accreditation verification on-chain. It follows ERC-1155 standards, and is freely usable by any other protocol. No personally identifiable data is stored on-chain. UID is a product developed by Warbler Labs, the core development team supporting Goldfinch’s growth.&#x20;
+
+At any time the Goldfinch community can use the governance process to update or change how the Unique Entity Check is being conducted, such as by introducing oracles that perform off-chain checks to validate that the wallet addresses are unique entities.
 
 ## **Ready to learn more?**
 

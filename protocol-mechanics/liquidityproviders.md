@@ -34,9 +34,15 @@ For a step-by-step on supplying to the Senior Pool, read the documentation's [In
 
 ## FIDU <a href="#fidu" id="fidu"></a>
 
-When Liquidity Providers supply to the Senior Pool, they receive an equivalent amount of FIDU. FIDU is an ERC20 token. At any time, Liquidity Providers can withdraw their position by redeeming their FIDU for USDC at an exchange rate based on the net asset value of the Senior Pool, minus a 0.5% withdrawal fee. This exchange rate for FIDU increases over time as interest payments are made back to the Senior Pool.
+When Liquidity Providers supply to the Senior Pool, they receive an equivalent amount of FIDU. FIDU is an ERC20 token.
 
-It is possible that when a Liquidity Provider wants to withdraw, the Senior Pool may not have sufficient USDC because it has been borrowed by Borrowers. In this event, the Liquidity Provider may return when new capital enters the Senior Pool through Borrower repayments or new Liquidity Providers.
+At any time, Liquidity Providers can withdraw their position by depositing their FIDU to a [Withdrawal Request](https://docs.goldfinch.finance/goldfinch/protocol-mechanics/liquidity), to redeem their FIDU for USDC at an exchange rate based on the net asset value of the Senior Pool, minus a 0.5% withdrawal fee. This exchange rate for FIDU increases over time as interest payments are made back to the Senior Pool.
+
+Withdrawal Requests are fulfilled every two weeks. It is possible that when a Liquidity Provider wants to withdraw, the Senior Pool may not have sufficient USDC because it has been borrowed by Borrowers. If there is enough USDC unutilized in the Pool to honor all outstanding withdrawal requests at the end of the distribution period, all withdrawers will receive 100% of the value of the FIDU they requested to withdraw, in USDC, minus the 0.5% withdraw fee.
+
+If there is not enough USDC in the Senior Pool to honor all outstanding Withdrawal Requests at the end of the period, due to the USDC being actively utilized by Borrowers, all available USDC will be allocated to withdrawers pro-rata
+
+You can learn more about how Withdrawal Requests work in the [Liquidity section](https://docs.goldfinch.finance/goldfinch/protocol-mechanics/liquidity) of the documentation.
 
 ## Summary of Liquidity Provider mechanics
 
