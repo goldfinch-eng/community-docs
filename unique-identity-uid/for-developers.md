@@ -28,7 +28,6 @@ contract MyContract {
         return balance > 0
     }
 }
-
 ```
 
 **Note:** UID currently only operates on Ethereum mainnet. The contract itself can be found [here](https://etherscan.io/token/0xba0439088dc1e75f58e0a7c107627942c15cbb41#readProxyContract)
@@ -49,7 +48,6 @@ async function hasUID(userAddress) {
   const balance = parseInt(await UID.methods.balanceOf(userAddress, VERSION_0).call())
   return balance > 0
 }
-
 ```
 
 ### Getting new users verified

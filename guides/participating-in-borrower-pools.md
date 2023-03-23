@@ -20,7 +20,15 @@ You can only participate in a Borrower Pool when a Borrower Pool is open. A pool
 
 Typically, once a Borrower Pool is open, the community shares announcements using [Discord](https://discord.com/invite/HVeaca3fN8) and/or Telegram. This announcement will contain a [Pool Overview](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MlGaVCGIXm8i0k0uhfS%2Fuploads%2FkuplVhYH6Lz4IlUCuXPT%2FSample\_Pool\_Overview.pdf?alt=media\&token=39f94f57-aa32-4e3b-8fdc-0117ad3cce37) (an example is linked), which describes the Pool deal in depth. It typically holds the key terms of the loan agreement, the repayment schedule, FAQs, and other resources.
 
-#### **Getting more details about Borrower Pools**
+#### Accessing Credit Analysis Memos
+
+The Credit Analysis Grant is a community-led grants program, [approved by the community in July 2022](https://gov.goldfinch.finance/t/gip-14-credit-analysis-grant-pilot/1041), to compensate skilled community members to write Credit Analysis Memos for borrower pools. The credit memos do not contain any investment advice. For more details, please [visit this FAQ page](https://www.notion.so/goldfinchfinance/What-is-the-Credit-Analysis-Grant-422052ad21504a9dac1c0088671c1333).
+
+Each credit memo will be an NDA-gated, multi-page report that follows the same specific format: 1) summary, 2) overview, and 3) credit analysis. The credit analysis section will include details on historical financials, portfolio performance, deal structure, and risk.
+
+The Credit Analysis Memos will be displayed on the dapp within their respective Borrower Pool pages. Users will have to sign into an NDA in order to access the report. Please note, as of February 6, Credit Analysis Memos are only available for the [LendEast](https://app.goldfinch.finance/pools/0xb26b42dd5771689d0a7faeea32825ff9710b9c11) and the [Cauris #2](https://app.goldfinch.finance/pools/0xd09a57127bc40d680be7cb061c2a6629fe71abef) Borrower Pools.
+
+#### **Accessing the Data Rooms for more details**
 
 Usually, the Pool Overview includes a Non-Disclosure Agreement for you to sign. (Read more about NDA's [here](https://www.investopedia.com/terms/n/nda.asp).) This will give you access to the due diligence data room containing information provided by the Borrower. Each individual Goldfinch Backer is responsible for doing thorough due diligence on their own investments and deciding whether it's a good opportunity for them.
 

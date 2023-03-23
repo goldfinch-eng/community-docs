@@ -30,6 +30,7 @@
 * [Investor How-To](guides/README.md)
   * [Getting Started on Goldfinch](guides/getting-started.md)
   * [Verifying Your Identity](guides/verifying-your-identity.md)
+  * [Participating in Callable Deals](guides/participating-in-callable-deals.md)
   * [Participating in the Senior Pool](guides/participating-in-the-senior-pool.md)
   * [Participating in Borrower Pools](guides/participating-in-borrower-pools.md)
   * [Participating in Liquidity Mining](guides/participating-in-liquidity-mining.md)

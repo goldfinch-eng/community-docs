@@ -6,11 +6,21 @@
 Backers are Investors who supply USDC to individual Borrower Pools. Backers evaluate individual deals, and lend directly to specific Borrower Pools with first-loss capital.&#x20;
 {% endhint %}
 
+## General Overview
+
+Backers look at Borrower Pools and Callable Deals as investment opportunities. They evaluate the information Borrowers provide, and decide if they want to supply capital (junior tranche capital for Borrower Pools; unitranche for Callable Deals).&#x20;
+
+To track the different amounts that different participants supply, Backers receive an NFT when they supply capital. The NFT tracks the amount that was supplied and how much of it has been redeemed. Backers can use their NFT to redeem their specific portion of the available repayments in the Pool or Deal, depending on the type of deal.
+
+## Supplying to Callable Deals
+
+The Callable Deal loan structure gives Backers the right to “call back” their invested capital before the loan term has ended. Borrowers are required to return 100% of this “called capital” at the end of a “call period.”
+
+Callable loans are an existing structure in traditional finance that provides liquidity to investors by giving them the right to “call back” their capital at regular intervals. Goldfinch's initial design of callable deals sets call periods to occur every three months; call requests must be submitted **at minimum 60 days** before the end of the call period (any calls that occur less than 60 days before the closest upcoming repayment date will be paid on the second closest upcoming repayment date).
+
 ## Supplying to Borrower Pools
 
-Backers look at Borrower Pools as investment opportunities. They evaluate the information Borrowers provide, and decide if they want to supply first-loss capital (junior tranche) to fund a Borrower Pool.&#x20;
-
-To track the different amounts that different participants supply, Backers receive an NFT when they supply capital. The NFT tracks the amount that was supplied and how much of it has been redeemed. At any time, a Backer can use their NFT to redeem their specific portion of the available repayments in the Pool.
+Backers evaluate the information Borrowers provide and decide if they want to supply first-loss capital (junior tranche) to fund a Borrower Pool.&#x20;
 
 The Senior Pool provides additional second-loss (senior tranche) capital to the Borrower Pool according to the [Leverage Model](leveragemodel.md). To account for the lower risk of the senior tranche, 20% of the senior tranche’s nominal interest is reallocated to the junior tranche. In addition, the protocol retains 10% of all interest payments as reserves, which are managed by the decentralized Governance.&#x20;
 
