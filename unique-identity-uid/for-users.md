@@ -6,19 +6,19 @@ As of January 26, 2022, U.S. individuals can obtain a Unique Identity (UID). Thi
 
 ### Step 1: Sign In&#x20;
 
-Head over to https://app.goldfinch.finance/verify. Click the “Sign In” button and use MetaMask to sign in to Goldfinch with the MetaMask address you’d like to use to interact with and supply capital to the protocol.
+Head over to the [account page](https://app.goldfinch.finance/account). Click the “Connect Wallet” button and use MetaMask to sign in to Goldfinch with the MetaMask address you’d like to use to interact with and supply capital to the protocol.
 
 ### Step 2: Verify your MetaMask address&#x20;
 
 Self-identify as an individual or entity, US-based or non-US, and—for US-based—accredited or non-accredited. For non-US individuals and US non-accredited individuals, you’ll then be prompted to enter your contact information and will be redirected to Persona—the Goldfinch protocol’s identity verification partner—to complete an identification check. Please have your ID ready and be prepared to take a quick selfie.
 
-For entities (both US and non-US) and US accredited investors, you’ll then be prompted to visit the Goldfinch bridge site on Parallel Markets to complete the KYC/KYB process. Once your KYC/KYB (and accreditation, if applicable) are verified, someone from the Goldfinch community will be in touch via email within 24 business hours asking for your wallet address that will hold your UID.&#x20;
+For entities (both US and non-US) and US accredited investors, you’ll then be prompted to visit the Goldfinch bridge site on Parallel Markets to complete the KYC/KYB process. Once your KYC/KYB (and accreditation, if applicable) are verified, you will get an email notification from Parallel Markets. If your identity and accreditation documents are accepted, you will be able to mint a UID on the [account page](https://app.goldfinch.finance/account). If your documents are rejected, you can contact us at UID@warblerlabs.com for next steps.&#x20;
 
-Once your address is provided, you will receive a second email notification when you can proceed with minting your UID. Completing the minting step will allow you to participate in Goldfinch.
+Completing the minting step will allow you to participate in Goldfinch.
 
 ### Step 3: Mint your UID&#x20;
 
-Once you have successfully verified your identity, return to `https://app.goldfinch.finance/verify` to mint your UID. To do this, click on `Create UID` and confirm the NFT minting transaction.
+As mentioned above, you can go to the [account page](https://app.goldfinch.finance/account) to mint your UID. To do this, click on `Create UID` and confirm the NFT minting transaction.
 
 Note that minting a UID NFT will cost 0.00083 ETH + gas fees. This is to cover the fees incurred by the protocol for conducting an identity verification via Persona, a 3rd party service provider.
 
