@@ -23,11 +23,11 @@ The Goldfinch protocol has three key roles: Investors, Borrowers, and Auditors. 
 * [_**Backers**_](protocol-mechanics/backers.md) optimize for yield and specificity. They assess individual Borrower Pools, decide whether to invest in them directly with first-loss capital, and earn the protocol’s highest yields for doing so.
 * [_**Liquidity Providers**_](protocol-mechanics/liquidityproviders.md) optimize for diversification and liquidity. They supply second-loss capital to the Senior Pool, which automatically allocates its funds across all Borrower Pools according to the assessment of Backers.
 
-****[**Members**](protocol-mechanics/membership.md) are participants who supply capital and GFI to a Goldfinch Membership Vault to support the network's growth and security, and receive Member Rewards for their enhanced participation.
+[**Members**](protocol-mechanics/membership.md) are participants who supply capital and GFI to a Goldfinch Membership Vault to support the network's growth and security, and receive Member Rewards for their enhanced participation.
 
-****[**Borrowers**](protocol-mechanics/borrowers.md) are participants who seek financing from Goldfinch, and they propose Borrower Pools to be assessed by the network. Borrower Pools are smart contracts that contain the terms a Borrower seeks for their loan, such as the interest rate and repayment schedule.
+[**Borrowers**](protocol-mechanics/borrowers.md) are participants who seek financing from Goldfinch, and they propose Borrower Pools to be assessed by the network. Borrower Pools are smart contracts that contain the terms a Borrower seeks for their loan, such as the interest rate and repayment schedule.
 
-****[**Auditors**](protocol-mechanics/auditors.md) vote to approve Borrowers, a required step before they can propose a Borrower Pool to Backers. Auditors are randomly selected by the protocol to provide a human-level check guarding against fraudulent activity and earn rewards in exchange for conducting this work. Note that as of June 2021 the Auditor role is not yet live on Goldfinch.
+[**Auditors**](protocol-mechanics/auditors.md) vote to approve Borrowers, a required step before they can propose a Borrower Pool to Backers. Auditors are randomly selected by the protocol to provide a human-level check guarding against fraudulent activity and earn rewards in exchange for conducting this work. Note that as of June 2021 the Auditor role is not yet live on Goldfinch.
 
 ## **How Goldfinch works**
 
@@ -59,7 +59,7 @@ Senior Pool LPs receive FIDU, an ERC-20 token representing their position that g
 
 At any time, a Backer can use their NFT to redeem their specific portion of the available repayments in the Pool. Senior Pool Liquidity Providers can withdraw their position in the Senior Pool at any time by depositing their FIDU to a [Withdrawal Request](https://docs.goldfinch.finance/goldfinch/protocol-mechanics/liquidity).
 
-![Goldfinch protocol architecture](.gitbook/assets/v2-design-diagram.png)
+![Goldfinch protocol architecture](<.gitbook/assets/v2-design-diagram (1).png>)
 
 ## **Tokens**
 

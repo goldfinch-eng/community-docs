@@ -28,7 +28,7 @@
 
 **Leverage Model** — A formula by which the Senior Pool automatically determines how much capital to allocate to the senior tranche of each Borrower Pool.&#x20;
 
-**Membership Vault** — **** A vault for locking capital to help secure the growth and security of the Goldfinch network as a Member, earning a share of the protocol's fee revenue for doing so in the form of Member Rewards.
+**Membership Vault** — A vault for locking capital to help secure the growth and security of the Goldfinch network as a Member, earning a share of the protocol's fee revenue for doing so in the form of Member Rewards.
 
 **Senior Pool** — An investment pool for automatically diversified yields. The Senior Pool is a smart contract that accepts capital from Liquidity Providers and automatically allocates capital to the senior tranches of Borrower Pools, according to Goldfinch's Leverage Model.&#x20;
 

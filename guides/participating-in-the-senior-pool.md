@@ -14,7 +14,7 @@ Read about the Senior Pool on the [Liquidity Providers page](../protocol-mechani
 
 #### Understanding the risks
 
-<mark style="color:red;">**It is important to understand that you can lose money by participating in the Senior Pool.**</mark>** ** If a Borrower never pays back the amount they borrow, you will lose your relative portion of that loan default. However, if a Borrower pays back a portion of what they owe, that payment will go to the Senior Pool first, before it starts to cover any losses for Backers. In this way the Senior Pool providers more protection, compared to participating directly in Borrower Pools as a Backer.
+<mark style="color:red;">**It is important to understand that you can lose money by participating in the Senior Pool.**</mark> If a Borrower never pays back the amount they borrow, you will lose your relative portion of that loan default. However, if a Borrower pays back a portion of what they owe, that payment will go to the Senior Pool first, before it starts to cover any losses for Backers. In this way the Senior Pool providers more protection, compared to participating directly in Borrower Pools as a Backer.
 
 #### Understanding the APY
 

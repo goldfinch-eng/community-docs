@@ -2,8 +2,8 @@
 
 There are two types of capital providers on the Goldfinch protocol. They are:
 
-* ****[**Liquidity Providers**](../../protocol-mechanics/liquidityproviders.md) who supply capital into the Senior Pool, and
-* ****[**Backers**](../../protocol-mechanics/backers.md) who supply capital into individual Borrower Pools.
+* [**Liquidity Providers**](../../protocol-mechanics/liquidityproviders.md) who supply capital into the Senior Pool, and
+* [**Backers**](../../protocol-mechanics/backers.md) who supply capital into individual Borrower Pools.
 
 You can learn more about these roles in the [Protocol Mechanics](../../protocol-mechanics/) sections of the documentation.&#x20;
 

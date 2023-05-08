@@ -1,7 +1,7 @@
 ---
 description: >-
-  90-day callable loans provide Backers with the flexibility to call back their
-  capital with 60 days notice.
+  Callable loans provide Backers with the flexibility to call back their capital
+  with 2 months notice.
 ---
 
 # Participating in Callable Deals
@@ -16,7 +16,7 @@ Callable loans are an existing structure in traditional finance that provides li
 
 On Goldfinch, the Callable Deal loan structure gives Backers the right to “call back” their invested capital. Borrowers are required to return 100% of this “called capital” at the end of a “call period.”
 
-For the initial design, call periods will occur every three months and call requests must be submitted **at minimum 60 days** before the end of the call period (any calls that occur less than 60 days before the closest upcoming repayment date will be paid on the second closest upcoming repayment date).
+For the initial design, call periods will occur every three months and call requests must be submitted **at minimum 2 months** before the end of the call period (any calls that occur less than 2 months before the closest upcoming repayment date will be paid on the second closest upcoming repayment date).
 
 **Example Callable Deal**
 
@@ -25,25 +25,17 @@ Callable loans are a suitable option for borrowers with short-term assets that c
 As an example deal:
 
 * Borrower: Fintech X, who provides buy-now-pay-later (BNPL) loans to customers with a maximum tenor of 30 days
-* Goldfinch Deal Terms: 2 year loan with a quarterly call period where Backers must serve their call notice at least 60 days in advance
+* Goldfinch Deal Terms: 2 year loan with a quarterly call period where Backers must serve their call notice at least 2 months in advance
 
-Fintech X borrows from Goldfinch in order to offer more BNPL loans. If a Backer calls back their position early, Fintech X will know at least 60 days in advance. So they wait to get repaid on their 30 day BNPL loans and use that cash to repay Backers’ called capital.
+Fintech X borrows from Goldfinch in order to offer more BNPL loans. If a Backer calls back their position early, Fintech X will know at least 2 months in advance. So they wait to get repaid on their 30 day BNPL loans and use that cash to repay Backers’ called capital.
 
 **Recalling Principal**
 
-As mentioned above, Backers with UID can submit call requests to recall any portion of their principal at any point in time — but must be done at least 60 days in advance to call the next repayment. Once a request is submitted, the Backer continue to receive interest on capital until it is withdrawn.
+As mentioned above, Backers with UID can submit call requests to recall any portion of their principal at any point in time — but must be done at least 2 months in advance to call the next repayment. Once a request is submitted, the Backer continue to receive interest on capital until it is withdrawn.
 
 The illustration below shows a sample deal that demonstrates how the payback period works.
 
-<div>
-
-<img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/487826f3-e701-4c69-acc5-c1c2bad6924d/Untitled.png" alt="Untitled">
-
- 
-
-<figure><img src="../.gitbook/assets/Screenshot 2023-03-22 at 4.36.47 PM.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../.gitbook/assets/Screenshot 2023-05-08 at 4.44.20 PM.png" alt=""><figcaption><p>Call submission scheduling</p></figcaption></figure>
 
 For example: If you submit a call on the earliest possible date in the window (May 1), the time-to-repayment is five months; if you submit on the last possible day of the period (July 31), the time-to-repayment is two months. If a borrower is late on any payments, the ability to submit call requests will remain active.
 
@@ -90,10 +82,10 @@ After you supply capital, you can withdraw up until the time when the deal is cl
 
 After the Borrower draws down the capital, Backers can submit call requests to recall their principal at any point of time. Repayment of call requests happens once every three months on a set date.
 
-****\
+\
 **Timing**
 
-Call requests must be received in the first 30 days of the 90-day call request period (60 days in advance prior to a repayment date) in order to be paid. Any calls that occur less than two months before the closest upcoming repayment date will be paid on the second closest upcoming repayment date.\
+Call requests must be received in the first month of the three month call request period (two months prior to a repayment date) in order to be paid. Any calls that occur less than two months before the closest upcoming repayment date will be paid on the second closest upcoming repayment date.\
 
 
 **How To Submit a Request**
@@ -123,7 +115,7 @@ You receive yield each time the Borrower makes an interest payment into the Borr
 
 **When do I receive principal?**
 
-You can call any portion of their principal at any point in time — but must be done at least 60 days in advance to call from the next repayment. Once a request is submitted, you will continue to receive interest on capital until it is withdrawn.
+You can call any portion of their principal at any point in time — but must be done at least 2 months in advance to call from the next repayment. Once a request is submitted, you will continue to receive interest on capital until it is withdrawn.
 
 **Do I need to sign a Non-Disclosure Agreement (NDA) to invest as a Backer?**
 

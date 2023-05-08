@@ -2,7 +2,7 @@
 
 Let's take the below deal terms as an example of how back-leverage works:
 
-****
+
 
 **Hypothetical Transaction:**
 
@@ -18,7 +18,7 @@ Let's take the below deal terms as an example of how back-leverage works:
 
 **Backer Economics:** 20.4%
 
-****
+
 
 The table below shows the economics for both the Backers and the Senior Pool for a Borrower Pool with details above. You can download this sheet [here](https://docs.google.com/spreadsheets/d/1NB3kXFQTh3CxMhJSk8hHlMhgtxlcz8hBsaVu0O\_JjEg/edit?usp=sharing).
 

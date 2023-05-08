@@ -10,7 +10,7 @@ The [contract address](https://etherscan.io/token/0xdab396ccf3d84cf2d07c4454e10c
 
 The Goldfinch Protocol's core native token is GFI, and it is used for the following purposes:
 
-* _Community Governance:_ **** GFI is the token used for Community Governance_._ GFI holders can participate in governance to decide the direction of the protocol. [Learn more about Governance here](../governance.md).
+* _Community Governance:_ GFI is the token used for Community Governance_._ GFI holders can participate in governance to decide the direction of the protocol. [Learn more about Governance here](../governance.md).
 * _Participant Incentives:_ All participants receive ongoing rewards to incentivize their participation. This includes liquidity mining for Liquidity Providers who supply to the Senior Pool. Learn more about Investor Incentives [here](investor-incentives/), and Staking [here](staking.md).
 * _Community Grants_: The community can provide grants and/or bounties to participants that meaningfully contribute to the Goldfinch protocol and ecosystem.&#x20;
 
@@ -23,4 +23,3 @@ According to the whitepaper, GFI will also serve the following functions. These 
 
 You can learn more about the GFI distribution parameters and inflation in the [Tokenomics section](../tokenomics/) of the documentation.&#x20;
 
-****

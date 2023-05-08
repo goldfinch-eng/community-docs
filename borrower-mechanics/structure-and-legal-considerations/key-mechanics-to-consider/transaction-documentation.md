@@ -26,7 +26,7 @@ Note that these repayments mechanics are binding, and may not be changed by any 
 
 **It is important to note that the sole parties to the final transaction are the Borrower and Backers**. \
 \
-Goldfinch is not a party to any transaction agreement. Backers individually sign and collectively act as the counterparties to the relevant transaction agreements. After the close of each pool, the list of participating Backers shall be provided to the Borrow by the community. This list constitutes digital signatures by each Backer. _****_ Also note that if the Borrower or a related entity to the Borrower contributes to the Borrower Pool, they will have to recuse themselves as a lender.\
+Goldfinch is not a party to any transaction agreement. Backers individually sign and collectively act as the counterparties to the relevant transaction agreements. After the close of each pool, the list of participating Backers shall be provided to the Borrow by the community. This list constitutes digital signatures by each Backer. Also note that if the Borrower or a related entity to the Borrower contributes to the Borrower Pool, they will have to recuse themselves as a lender.\
 \
 \
 **Lender Signatures:** In the process of funding a Borrower pool, each Backer electronically signs the loan documents for that pool. Once the pool is fully funded, the community will provide the Borrower with a complete list of Backers along with the time stamp on the Backer's signing. This list is to be appended as an Exhibit to the final loan documents\
@@ -36,7 +36,7 @@ Goldfinch is not a party to any transaction agreement. Backers individually sign
 \
 **Borrower Responsibility:** As a Borrower, you are responsible for including all relevant disclosures, representations, and warranties related to your particular jurisdiction, facts, and circumstances in the Loan Documentation. Please also note that Borrowers cannot act as Facility and Security Agents. These will have to be sourced externally\
 \
-**Single Certificates:** To the extent that any certificates or other documents have to be created as part of the **** facility, they should be pledged to the Lenders collectively (i.e. a single document). The Goldfinch protocol will allocate the rights automatically to each Lender on a pro-rata basis.\
+**Single Certificates:** To the extent that any certificates or other documents have to be created as part of the facility, they should be pledged to the Lenders collectively (i.e. a single document). The Goldfinch protocol will allocate the rights automatically to each Lender on a pro-rata basis.\
 \
 **Pro-rata rights to Lenders:** Please note that if for any reason the debenture amount does not equal the facility amount, rights are allocated on a pro-rata basis to the Lenders
 
