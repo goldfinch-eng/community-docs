@@ -23,7 +23,7 @@ Each channel has a unique configuration to ensure that Investors are able to eas
 
 ### Channel #1: token-gated Discord channel
 
-For every Borrower Pool on the Goldfinch protocol, there will be a **community-managed** Discord channel launched in the[ Goldfinch Discord](https://discord.gg/HVeaca3fN8). This channel will be configured to permit access for:
+For every Borrower Pool on the Goldfinch protocol, there will be a **community-managed** Discord channel launched in the[ Goldfinch Discord](https://discord.gg/goldfinch). This channel will be configured to permit access for:
 
 * Backers invested in the Borrower Pool in question, who possess at least one pool token representing the Backer’s participation in the Borrower Pool&#x20;
 * Liquidity Providers in the Senior Pool who possess at least 10,000 FIDU tokens or staked FIDU tokens, representing approximately a $10,000 investment to ensure that the LP’s accessing this proprietary data have adequately aligned incentives to protect a Borrower’s best interests.
