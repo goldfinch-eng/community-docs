@@ -74,7 +74,7 @@
 
 ## 🔗 Connect
 
-* [Discord](https://discord.gg/HVeaca3fN8)
+* [Discord](https://discord.gg/goldfinch)
 * [Twitter](https://twitter.com/goldfinch\_fi)
 * [Medium](https://medium.com/goldfinch-fi)
 * [Weekly Updates](https://goldfinch.substack.com/)
